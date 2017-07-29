@@ -19,7 +19,7 @@ div#title {
 
 div.personal-statement {
     float: left;
-    margin: 10px;
+    margin: 0px 10px;
     font-weight: 300;
     font-size: 15px;
 }
