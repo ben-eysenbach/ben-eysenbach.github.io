@@ -1,10 +1,25 @@
 var data = {
     "research": [
         {
+            img: 'images/diayn.gif',
+            title: 'Diversity Is All You Need: Learning Diverse Skills Without a Reward Function',
+            text: 'In this project, we propose a method for learning useful skills without a reward function. Our simple objective results in the unsupervised emergence of diverse skills, such as walking and jumping. [<a href="https://arxiv.org/pdf/1802.06070">paper</a>, <a href="https://sites.google.com/view/diayn/home">website</a>, code coming soon]',
+        },
+        {
+            img: 'images/lnt.gif',
+            title: 'Leave No Trace: Learning to Reset for Safe and Autonomous Reinforcement Learning',
+            text: 'In this work, we propose an autonomous method for safe and efficient reinforcement learning that simultaneously learns a forward and reset policy, with the reset policy resetting the environment for a subsequent attempt. The reset policy can avoid manual resets, can reduce the number of unsafe actions, and can automatically induce a curriculum. Accepted to ICLR 2018. [<a href="https://arxiv.org/abs/1711.06782">paper</a>, <a href="https://sites.google.com/site/mlleavenotrace/">website</a>, code coming soon]',
+        },
+        {
             img: 'images/mistaken.png',
             title: 'Who is Mistaken?',
             text: 'In this project, I studied the beliefs of people in videos. Using a dataset I collected on Mechanical Turk, I created a representation of characters\' beliefs for recognizing mistaken characters. Diagnostics on my model suggest it learns important cues for recognizing mistaken beliefs, such as gaze and the arrow of time. [<a href="http://people.csail.mit.edu/bce/mistaken/">website</a>, <a href="https://arxiv.org/pdf/1612.01175v1.pdf">paper</a>]'
 	},
+    {
+        img: 'images/clustervision.png',
+        title: 'Clustervision: Visual Supervision of Unsupervised Clustering',
+        text: 'Designed algorithms for Clustervision, a visual analytics tool that helps ensure data scientists find the right clustering among the large amount of techniques and parameters available. [<a href="http://perer.org/papers/adamPerer-Clustervision-VAST2017.pdf">paper</a>]',
+    },
 	{
             img: 'images/segment.png',
             title: 'Video Segmentation',
@@ -57,6 +72,11 @@ var data = {
             text: 'Warped maps to reflect distances according to cyclists. Part of a data visualization project on how Hubway for Applying Media Technologies (CMS.622). [<a href="http://people.csail.mit.edu/bce/hubway">site</a>, <a href="http://web.mit.edu/bce/www/cms622_hubway.html">code</a>]'
         }],
     "teaching": [
+       {
+           img: 'images/stockholm.jpg',
+           title: 'Exploration in Reinforcement Learning: Accepted Workshop @ ICML 2018',
+           text: '<a href="https://github.com/suryabhupa">Surya Bhupatiraju</a> and I are co-organizing a workshop on Explortion in Reinforcemnet Learning for <a href=""https://icml.cc/">ICML 2018</a>.',
+       },
        {
             img: 'images/6008.jpg',
             title: '<a href="http://web.mit.edu/6.008/www/">6.008: Introduction to Inference</a>',
