@@ -8,7 +8,7 @@ var data = {
         {
             img: 'images/lnt.gif',
             title: 'Leave No Trace: Learning to Reset for Safe and Autonomous Reinforcement Learning',
-            text: 'In this work, we propose an autonomous method for safe and efficient reinforcement learning that simultaneously learns a forward and reset policy, with the reset policy resetting the environment for a subsequent attempt. The reset policy can avoid manual resets, can reduce the number of unsafe actions, and can automatically induce a curriculum. Accepted to ICLR 2018. [<a href="https://arxiv.org/abs/1711.06782">paper</a>, <a href="https://sites.google.com/site/mlleavenotrace/">website</a>, code coming soon]',
+            text: 'In this work, we propose an autonomous method for safe and efficient reinforcement learning that simultaneously learns a forward and reset policy, with the reset policy resetting the environment for a subsequent attempt. The reset policy can avoid manual resets, can reduce the number of unsafe actions, and can automatically induce a curriculum. Accepted to ICLR 2018. [<a href="https://arxiv.org/abs/1711.06782">paper</a>, <a href="https://sites.google.com/site/mlleavenotrace/">website</a>, <a href="https://github.com/brain-research/LeaveNoTrace">code</a>]',
         },
         {
             img: 'images/mistaken.png',
