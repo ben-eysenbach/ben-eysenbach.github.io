@@ -39,7 +39,7 @@ div#links {
 div#links a {
     float: left;
     text-align: center;
-    width: 25%; /* 600 / num_links */
+    width: 20%; /* 600 / num_links */
 }
 
 h1 {

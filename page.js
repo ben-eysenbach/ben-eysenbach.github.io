@@ -75,7 +75,7 @@ var data = {
        {
            img: 'images/stockholm.jpg',
            title: 'Exploration in Reinforcement Learning: Accepted Workshop @ ICML 2018',
-           text: '<a href="https://github.com/suryabhupa">Surya Bhupatiraju</a> and I are co-organizing a workshop on Explortion in Reinforcemnet Learning for <a href=""https://icml.cc/">ICML 2018</a>.',
+           text: '<a href="https://github.com/suryabhupa">Surya Bhupatiraju</a> and I are co-organizing a workshop on Exploration in Reinforcement Learning for <a href=""https://icml.cc/">ICML 2018</a>.',
        },
        {
             img: 'images/6008.jpg',
