@@ -8,7 +8,7 @@ var data = {
         {
             img: 'images/lnt.gif',
             title: 'Leave No Trace: Learning to Reset for Safe and Autonomous Reinforcement Learning',
-            text: 'In this work, we propose an autonomous method for safe and efficient reinforcement learning that simultaneously learns a forward and reset policy, with the reset policy resetting the environment for a subsequent attempt. The reset policy can avoid manual resets, can reduce the number of unsafe actions, and can automatically induce a curriculum. Accepted to ICLR 2018. [<a href="https://arxiv.org/abs/1711.06782">paper</a>, <a href="https://sites.google.com/site/mlleavenotrace/">website</a>, <a href="https://github.com/brain-research/LeaveNoTrace">code</a>]',
+            text: 'In this work, we propose an autonomous method for safe and efficient reinforcement learning that simultaneously learns a forward and reset policy, with the reset policy resetting the environment for a subsequent attempt. The reset policy can avoid manual resets, can reduce the number of unsafe actions, and can automatically induce a curriculum. Accepted to ICLR 2018. [<a href="https://arxiv.org/abs/1711.06782">paper</a>, <a href="https://sites.google.com/site/mlleavenotrace/">website</a>, <a href="https://github.com/brain-research/LeaveNoTrace">code</a>]<br><a href="https://www.technologyreview.com/the-download/609562/robots-get-an-undo-button-that-could-help-them-learn-faster/"><img src="images/tr.png" width=50px></a>',
         },
         {
             img: 'images/mistaken.png',
@@ -114,10 +114,10 @@ $('document').ready(function() {
 
     // Change photo on hover
     
-    var serious_img = 'images/me/ben eysenbach_0139.jpg';
-    var goofy_img = 'images/me/mustache.jpg';
+    // var serious_img = 'images/me/ben eysenbach_0139.jpg';
+    // var goofy_img = 'images/me/mustache.jpg';
         
-    $('img#profile-img').attr('src', serious_img);
+    // $('img#profile-img').attr('src', serious_img);
     //$('td#profile-img-td').hover(
     //    function() {
     //        $('img#profile-img').attr('src', goofy_img);
