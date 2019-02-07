@@ -3,22 +3,33 @@ var data = {
         {
             img: 'images/diayn.gif',
             title: 'Diversity Is All You Need: Learning Diverse Skills Without a Reward Function',
-            text: 'In this project, we propose a method for learning useful skills without a reward function. Our simple objective results in the unsupervised emergence of diverse skills, such as walking and jumping. [<a href="https://arxiv.org/pdf/1802.06070">paper</a>, <a href="https://sites.google.com/view/diayn/home">website</a>, <a href="https://github.com/ben-eysenbach/sac">code</a>]',
+	    authors: 'Benjamin Eysenbach, Abhishek Gupta, Julian Ibarz, Sergey Levine',
+            text: 'In this project, we propose a method for learning useful skills without a reward function. Our simple objective results in the unsupervised emergence of diverse skills, such as walking and jumping. Accepted to ICLR 2019. [<a href="https://arxiv.org/pdf/1802.06070">paper</a>, <a href="https://sites.google.com/view/diayn/home">website</a>, <a href="https://github.com/ben-eysenbach/sac">code</a>]',
         },
+	 {
+            img: 'images/sectar.png',
+            title: 'Self-Consistent Trajectory Autoencoder: Hierarchical Reinforcement Learning with Trajectory Embeddings',
+	    authors: 'John D Co-Reyes, YuXuan Liu, Abhishek Gupta, Benjamin Eysenbach, Pieter Abbeel, Sergey Levine',
+            text: 'We take a representation learning perspective on hierarchical reinforcement learning, where the problem of learning lower layers in a hierarchy is transformed into the problem of learning trajectory-level generative models. We show that we can learn continuous latent representations of trajectories, which are effective in solving temporally extended and multi-stage problems. Accepted to ICML 2018. [<a href="http://proceedings.mlr.press/v80/co-reyes18a.html">paper</a>]',
+        },
+		
         {
             img: 'images/lnt.gif',
             title: 'Leave No Trace: Learning to Reset for Safe and Autonomous Reinforcement Learning',
+	    authors: 'Benjamin Eysenbach, Shixiang Gu, Julian Ibarz, Sergey Levine',
             text: 'In this work, we propose an autonomous method for safe and efficient reinforcement learning that simultaneously learns a forward and reset policy, with the reset policy resetting the environment for a subsequent attempt. The reset policy can avoid manual resets, can reduce the number of unsafe actions, and can automatically induce a curriculum. Accepted to ICLR 2018. [<a href="https://arxiv.org/abs/1711.06782">paper</a>, <a href="https://sites.google.com/site/mlleavenotrace/">website</a>, <a href="https://github.com/brain-research/LeaveNoTrace">code</a>]<br><a href="https://www.technologyreview.com/the-download/609562/robots-get-an-undo-button-that-could-help-them-learn-faster/"><img src="images/tr.png" width=50px></a>',
         },
         {
             img: 'images/mistaken.png',
             title: 'Who is Mistaken?',
+	    authors: 'Benjamin Eysenbach, Carl Vondrick, Antonio Torralba',
             text: 'In this project, I studied the beliefs of people in videos. Using a dataset I collected on Mechanical Turk, I created a representation of characters\' beliefs for recognizing mistaken characters. Diagnostics on my model suggest it learns important cues for recognizing mistaken beliefs, such as gaze and the arrow of time. [<a href="http://people.csail.mit.edu/bce/mistaken/">website</a>, <a href="https://arxiv.org/pdf/1612.01175v1.pdf">paper</a>]'
 	},
     {
         img: 'images/clustervision.png',
         title: 'Clustervision: Visual Supervision of Unsupervised Clustering',
-        text: 'Designed algorithms for Clustervision, a visual analytics tool that helps ensure data scientists find the right clustering among the large amount of techniques and parameters available. [<a href="http://perer.org/papers/adamPerer-Clustervision-VAST2017.pdf">paper</a>]',
+	authors: 'Bum Chul Kwon, Ben Eysenbach, Janu Verma, Kenney Ng, Christopher De Filippi, Walter F Stewart, Adam Perer',
+        text: 'Designed algorithms for Clustervision, a visual analytics tool that helps ensure data scientists find the right clustering among the large amount of techniques and parameters available. Accepted at IEEE Transactions on Visualization and Computer Graphics. [<a href="http://perer.org/papers/adamPerer-Clustervision-VAST2017.pdf">paper</a>]',
     },
 	{
             img: 'images/segment.png',
@@ -86,7 +97,19 @@ var data = {
             img: 'images/6042.jpg',
             title: '<a href="http://mit.edu/6.042/">6.042: Math for Computer Science</a>',
             text: 'TA in Spring 2015'
+        }],
+    "blog": [
+       {
+           img: 'images/stockholm.jpg',
+           title: '<a href="https://medium.com/@erl.leads/hitchhikers-guide-to-organizing-an-academic-workshop-cc9a5b1c32c9">Hitchhiker\'s Guide to Organizing an Academic Workshop</a>',
+           text: 'Surya Bhupatiraju and I discuss what went well at our Workshop on Exploration in RL, and what we learned.'
+       },
+       {
+           img: 'images/residency.jpg',
+           title: '<a href="https://colinraffel.com/blog/writing-a-google-ai-residency-cover-letter.html">Writing a Google AI Residency Cover Letter</a>',
+           text: 'Katherine Lee and I explain how to write a cover letter for AI residency programs.'
         }]
+
 }
 
 $('document').ready(function() {
@@ -112,6 +135,13 @@ $('document').ready(function() {
         $('table#research-table').append(html);
     }
 
+    // Add blog
+    for (var i = 0; i < data.blog.length; i++) {
+        var proj = data.blog[i];
+        var html = getProjectHTML(proj);
+        $('table#blog-table').append(html);
+    }
+
     // Change photo on hover
     
     // var serious_img = 'images/me/ben eysenbach_0139.jpg';
@@ -135,7 +165,11 @@ function getProjectHTML(proj) {
     // Add image
     html += '<td class="image-td"><img class="project-img" src="' + proj.img + '"></td>';
     // Add title and description
-    html += '<td class="description-td"><h3>' + proj.title + '</h3><p>' + proj.text + '</p></td>';
+    html += '<td class="description-td"><h3>' + proj.title + '</h3>'
+    if ('authors' in proj) {
+        html += '<p><i>' + proj.authors + '</i></p>'
+    }
+    html += '<p>' + proj.text + '</p></td>';
     html += '</tr>';
     return html;
 }
