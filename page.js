@@ -108,11 +108,30 @@ var data = {
            img: 'images/residency.jpg',
            title: '<a href="https://colinraffel.com/blog/writing-a-google-ai-residency-cover-letter.html">Writing a Google AI Residency Cover Letter</a>',
            text: 'Katherine Lee and I explain how to write a cover letter for AI residency programs.'
-        }]
-
+        }],
+    "news": [
+        `I\'m excited to present some new work at ICLR:
+	    <ul  style="font-size:14px">
+            <li><em>"<a href=\"https://arxiv.org/abs/1802.06070\">Diversity Is All You Need: Learning Diverse Skills Without a Reward Function</a>"</em>, Benjamin Eysenbach, Abhishek Gupta, Julian Ibarz, Sergey Levine. Main Conference.</li>
+	    <li><em>"State Marginal Matching with Mixtures of Policies"</em>, Lisa Lee*, Emilio Parisotto*, Benjamin Eysenbach*, Ruslan Salakhutdinov, Sergey Levine. Workshop on Structures and Priors in RL (oral) and Workshop on Task Agnostic RL (oral).</li>
+	    <li><em>"Reinforcement Learning with Unknown Reward Functions"</em>, Benjamin Eysenbach*, Jacob Tyo*, Shixiang Gu, Ruslan Salakhutdinov, Sergey Levine. Workshop on Structures and Priors in RL (oral) and Workshop on Task Agnostic RL.</li>
+	    <li><em>"Search on the Replay Buffer: Bridging Motion Planning and Reinforcement Learning"</em>, Benjamin Eysenbach, Ruslan Salakhutdinov, Sergey Levine. Workshop on Structures and Priors in RL.</li>
+	    </ul>
+	`,
+	'I\'m co-organizing the second <a href="https://sites.google.com/view/erl-2019/home">Workshop on Exploration in Reinforcement Learning</a> at ICML 2019',
+        'I was awarded the <a href="https://www.cmu.edu/news/stories/archives/2019/april/2019-hertz-fellowships.html">Hertz</a> and <a href="https://www.nsfgrfp.org/">NSF</a> fellowships!',
+    ],
 }
 
 $('document').ready(function() {
+    // Add news
+    for (var i = 0; i < data.news.length; i++) {
+        var proj = data.news[i];
+        var html = '<tr><td>&#8594; ' + proj + '</td></tr>';
+        $('table#news-table').append(html);
+    }
+
+
     // Add projects
     for (var i = 0; i < data.projects.length; i++) {
         var proj = data.projects[i];
