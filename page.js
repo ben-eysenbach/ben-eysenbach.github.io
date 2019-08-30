@@ -1,5 +1,24 @@
 var data = {
     "research": [
+
+        {
+            img: 'images/sorb.png',
+            title: 'Search on the Replay Buffer: Bridging Motion Planning and Reinforcement Learning',
+	    authors: 'Benjamin Eysenbach, Ruslan Salakhutdinov, Sergey Levine',
+            text: 'The history of learning for control has been an exciting back and forth between two broad classes of algorithms: planning and reinforcement learning. We introduce a general-purpose control algorithm that combines the strengths of planning and reinforcement learning to solve long-horizon, sparse-reward tasks. Using graph search over our replay buffer, we can automatically generate a sequence of subgoals, even in image-based environments. Our algorithm, search on the replay buffer (SoRB), enables agents to solve sparse reward tasks over one hundred steps, and generalizes substantially better than standard RL algorithms. ICLR 2019 Workshop on Structures and Priors in RL. [<a href="https://arxiv.org/pdf/1906.05253.pdf">paper</a>, <a href="http://bit.ly/rl_search">code (runs in your browser!)</a>]',
+        },
+        {
+            img: 'images/smm_ant.png',
+            title: 'Efficient Exploration via State Marginal Matching',
+	    authors: 'Lisa Lee*, Benjamin Eysenbach*, Emilio Parisotto*, Eric Xing, Sergey Levine, Ruslan Salakhutdinov',
+            text: 'We suggest that the goal of exploration should be to maximize entropy over states, and show that this method works well on simulated robotic tasks. We also discuss how prior work on explorationcan almost maximizes some entropy, but omits a crucial historical averaging step. ICLR 2019 Workshop on Structures and Priors in RL (oral) and Workshop on Task Agnostic RL (oral). [<a href="https://arxiv.org/pdf/1906.05274.pdf">paper</a>, <a href="https://sites.google.com/view/state-marginal-matching">website</a>, <a href="https://github.com/RLAgent/state-marginal-matching">code</a>]',
+        },
+	{
+            img: 'images/unknown_rewards.png',
+            title: 'Reinforcement Learning with Unknown Reward Functions',
+	    authors: 'Benjamin Eysenbach*, Jacob Tyo*, Shixiang Gu, Ruslan Salakhutdinov, Sergey Levine',
+            text: 'In this project, we propose a method for learning useful skills without a reward function. Our simple objective results in the unsupervised emergence of diverse skills, such as walking and jumping. ICLR 2019 Workshop on Structures and Priors in RL (oral) and Workshop on Task Agnostic RL. [<a href="https://spirl.info/2019/camera-ready/spirl_camera-ready_26.pdf">paper</a>]',
+        },
         {
             img: 'images/diayn.gif',
             title: 'Diversity Is All You Need: Learning Diverse Skills Without a Reward Function',
@@ -84,9 +103,15 @@ var data = {
         }],
     "teaching": [
        {
+           img: 'images/rl.jpg',
+           title: '<a href="https://cmudeeprl.github.io/703website/">10-703: Deep Reinforcement Learning</a>',
+           text: 'Head TA in Fall 2019.',
+       },
+     
+       {
            img: 'images/stockholm.jpg',
-           title: 'Exploration in Reinforcement Learning: Accepted Workshop @ ICML 2018',
-           text: '<a href="https://github.com/suryabhupa">Surya Bhupatiraju</a> and I are co-organizing a workshop on Exploration in Reinforcement Learning for <a href=""https://icml.cc/">ICML 2018</a>.',
+           title: 'Exploration in Reinforcement Learning: Workshop @ ICML 2018, ICML 2019',
+           text: '<a href="https://github.com/suryabhupa">Surya Bhupatiraju</a> and I co-organized a workshop on Exploration in Reinforcement Learning at <a href=""https://icml.cc/">ICML 2018 and ICML 2019</a>.',
        },
        {
             img: 'images/6008.jpg',
@@ -110,26 +135,16 @@ var data = {
            text: 'Katherine Lee and I explain how to write a cover letter for AI residency programs.'
         }],
     "news": [
-        `I\'m excited to present some new work at ICLR:
-	    <ul  style="font-size:14px">
-            <li><em>"<a href=\"https://arxiv.org/abs/1802.06070\">Diversity Is All You Need: Learning Diverse Skills Without a Reward Function</a>"</em>, Benjamin Eysenbach, Abhishek Gupta, Julian Ibarz, Sergey Levine. Main Conference.</li>
-	    <li><em>"State Marginal Matching with Mixtures of Policies"</em>, Lisa Lee*, Emilio Parisotto*, Benjamin Eysenbach*, Ruslan Salakhutdinov, Sergey Levine. Workshop on Structures and Priors in RL (oral) and Workshop on Task Agnostic RL (oral).</li>
-	    <li><em>"Reinforcement Learning with Unknown Reward Functions"</em>, Benjamin Eysenbach*, Jacob Tyo*, Shixiang Gu, Ruslan Salakhutdinov, Sergey Levine. Workshop on Structures and Priors in RL (oral) and Workshop on Task Agnostic RL.</li>
-	    <li><em>"Search on the Replay Buffer: Bridging Motion Planning and Reinforcement Learning"</em>, Benjamin Eysenbach, Ruslan Salakhutdinov, Sergey Levine. Workshop on Structures and Priors in RL.</li>
-	    </ul>
-	`,
-	'I\'m co-organizing the second <a href="https://sites.google.com/view/erl-2019/home">Workshop on Exploration in Reinforcement Learning</a> at ICML 2019',
-        'I was awarded the <a href="https://www.cmu.edu/news/stories/archives/2019/april/2019-hertz-fellowships.html">Hertz</a> and <a href="https://www.nsfgrfp.org/">NSF</a> fellowships!',
     ],
 }
 
 $('document').ready(function() {
     // Add news
-    for (var i = 0; i < data.news.length; i++) {
-        var proj = data.news[i];
-        var html = '<tr><td>&#8594; ' + proj + '</td></tr>';
-        $('table#news-table').append(html);
-    }
+    // for (var i = 0; i < data.news.length; i++) {
+    //     var proj = data.news[i];
+    //     var html = '<tr><td>&#8594; ' + proj + '</td></tr>';
+    //     $('table#news-table').append(html);
+    // }
 
 
     // Add projects
