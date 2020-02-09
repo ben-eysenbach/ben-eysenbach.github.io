@@ -1,7 +1,8 @@
 <html>
 <head>
 <meta charset="utf-8"/>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+<script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="//code.jquery.com/mobile/1.5.0-alpha.1/jquery.mobile-1.5.0-alpha.1.min.js"></script>
 <script>
 
 function play_game(data, name) {
@@ -74,13 +75,13 @@ $(document).ready(function(){
 				$('img').attr('src', 'https://mldcmu.ai/images/machine-learning-department-all.jpg');
 			}
 
+			// handle key presses
 			$(document).one('keyup', function(event) {
 				console.log(name_index, event.which);
-				if (event.which == 16) {  // left shift reveals name
+				if (event.which == 16) {  // shift reveals name
 					$('p#name').text(name);
 				} else if (event.which == 39) {  // right arrow for correct
 					unknown_names.splice(name_index, 1);
-				
 				}
 				if (event.which == 37 || event.which == 39) {  // left arrow for incorrect
 					$('p#name').text('???');
@@ -90,6 +91,26 @@ $(document).ready(function(){
 					update_name(false);
 				}
 			})
+			// handle swipes
+			$(document).on('swipeleft', function(event) { // incorrect guess
+				console.log(name_index, event);
+				$('p#name').text('???');
+				update_name(true);
+			})
+			$(document).on('swiperight', function(event) { // correct guess
+				console.log(name_index, event);
+				unknown_names.splice(name_index, 1);
+				$('p#name').text('???');
+				update_name(true);
+			})
+			$(document).on('taphold', function(event) {
+				$('p#name').text(name);
+				update_name(false);
+			})
+			
+
+
+
 		}
 		update_name();
 	})
@@ -112,9 +133,9 @@ $(document).ready(function(){
 	<h3>Instructions:</h3>
 	<p>Learn the names of everyone in MLD:</p>
 	<ul>
-		<li>Press <b>[SHIFT]</b> to reveal the name of the person shown.</li>
-		<li>Press <b>[RIGHT ARROW]</b> if you got the name correct;</li>
-		<li>Press <b>[LEFT ARROW]</b> if you got the name wrong.</li>
+		<li>Press <b>[SHIFT]</b> to reveal the name of the person shown (mobile: <b>[LONG TAP]</b>).</li>
+		<li>Press <b>[RIGHT ARROW]</b> if you got the name correct (mobile: <b>[SWIPE RIGHT]</b>).</li>
+		<li>Press <b>[LEFT ARROW]</b> if you got the name wrong (mobile: <b>[SWIPE LEFT]</b>).</li>
 	</ul>
 	<br>
 	<p>Learn names of other groups within MLD:<p>
