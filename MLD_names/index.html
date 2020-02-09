@@ -38,11 +38,13 @@ $(document).ready(function(){
 	$.getJSON(json_name, function(data) {
 		var unknown_names = [];
 		var num_names = 0;
+		var num_attempts = {};
 		for (name in data) {
 			url_basename = data[name].split('/').reverse()[0]
 			if (url_basename != 'default-portrait.png') {
 				unknown_names.push(name);
 				num_names += 1;
+				num_attempts[name] = 1;
 			}
 		}
 		$('p#name').text('???');
@@ -63,22 +65,42 @@ $(document).ready(function(){
 			var score_str = 'Score: '.concat(num_known.toString())
 			 												 .concat('/')
 															 .concat(num_names.toString());
-			console.log(score_str);
 			
 			url = data[name];
 			// $('img').attr('src', 'images/'.concat(url));
 			$('img').attr('src', url);
-			console.log(name, url);
 			if (unknown_names.length == 0) {
-				$('p#name').text('You\'re done!!!');
+				var inv_num_attempts = {}
+				for (name in num_attempts) {
+					attempts = num_attempts[name].toString();
+					if (Object.keys(inv_num_attempts).includes(attempts)) {
+						inv_num_attempts[attempts] += 1
+					} else {
+						inv_num_attempts[attempts] = 1
+					}
+				}
+				var output_str = 'You\'re done!!! <br/> <span style="font-size: 12px">'
+				key_vec = Object.keys(inv_num_attempts).sort();
+				for (index in key_vec) {
+					attempts = key_vec[index]
+					var frac = 100.0 * inv_num_attempts[attempts] / num_names
+					frac = frac.toPrecision(2).toString()
+					var str = attempts.concat(' attempts: ')
+														 .concat(frac)
+														.concat('%<br/>')
+					output_str = output_str.concat(str)
+				}
+				output_str.concat('</span>');
+				$('p#name').html(output_str);
 				$('img').attr('src', 'https://mldcmu.ai/images/machine-learning-department-all.jpg');
 			}
 
 			// handle key presses
 			$(document).one('keyup', function(event) {
-				console.log(name_index, event.which);
 				if (event.which == 16) {  // shift reveals name
 					$('p#name').text(name);
+				} else if (event.which == 37) {
+					num_attempts[name] += 1;
 				} else if (event.which == 39) {  // right arrow for correct
 					unknown_names.splice(name_index, 1);
 				}
@@ -114,9 +136,9 @@ $(document).ready(function(){
 	<h3>Instructions:</h3>
 	<p>Learn the names of everyone in MLD:</p>
 	<ul>
-		<li>Press <b>[SHIFT]</b> to reveal the name of the person shown (mobile: <b>[LONG TAP]</b>).</li>
-		<li>Press <b>[RIGHT ARROW]</b> if you got the name correct (mobile: <b>[SWIPE RIGHT]</b>).</li>
-		<li>Press <b>[LEFT ARROW]</b> if you got the name wrong (mobile: <b>[SWIPE LEFT]</b>).</li>
+		<li>Press <b>[SHIFT]</b> to reveal the name of the person shown.</li>
+		<li>Press <b>[RIGHT ARROW]</b> if you got the name correct.</li>
+		<li>Press <b>[LEFT ARROW]</b> if you got the name wrong.</li>
 	</ul>
 	<br>
 	<p>Learn names of other groups within MLD:<p>
