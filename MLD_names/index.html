@@ -2,7 +2,6 @@
 <head>
 <meta charset="utf-8"/>
 <script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
-<script src="//code.jquery.com/mobile/1.5.0-alpha.1/jquery.mobile-1.5.0-alpha.1.min.js"></script>
 <script>
 
 function play_game(data, name) {
@@ -91,25 +90,6 @@ $(document).ready(function(){
 					update_name(false);
 				}
 			})
-			// handle swipes
-			$(document).on('swipeleft', function(event) { // incorrect guess
-				console.log(name_index, event);
-				$('p#name').text('???');
-				update_name(true);
-			})
-			$(document).on('swiperight', function(event) { // correct guess
-				console.log(name_index, event);
-				unknown_names.splice(name_index, 1);
-				$('p#name').text('???');
-				update_name(true);
-			})
-			$(document).on('taphold', function(event) {
-				$('p#name').text(name);
-				update_name(false);
-			})
-			
-
-
 
 		}
 		update_name();
@@ -118,6 +98,7 @@ $(document).ready(function(){
 </script> 
 </head>
 <body>
+	<div style="margin: auto; width: 50%">
 	<div style="border-style: solid; width: 300px">
 	<h1 style='text-align: center; font-size: 24px'>MLD Name Game<br><span id="who"></span></h1>
 		<div style="height: 300px; width: 300px">
@@ -140,16 +121,17 @@ $(document).ready(function(){
 	<br>
 	<p>Learn names of other groups within MLD:<p>
 	<ul>
-		<li><a href="./mld_names.html?who=phd_students">phd students</a></li>
-		<li><a href="./mld_names.html?who=masters_students">masters students</a></li>
-		<li><a href="./mld_names.html?who=core_faculty">core faculty</a></li>
-		<li><a href="./mld_names.html?who=affiliated_faculty">affiliated faculty</a></li>
-		<li><a href="./mld_names.html?who=staff">staff</a></li>
-		<li><a href="./mld_names.html?who=visitors">visitors</a></li>
-		<li><a href="./mld_names.html?who=postdocs_project_scientists">postdocs and project scientists</a></li>
+		<li><a href="./index.html?who=phd_students">phd students</a></li>
+		<li><a href="./index.html?who=masters_students">masters students</a></li>
+		<li><a href="./index.html?who=core_faculty">core faculty</a></li>
+		<li><a href="./index.html?who=affiliated_faculty">affiliated faculty</a></li>
+		<li><a href="./index.html?who=staff">staff</a></li>
+		<li><a href="./index.html?who=visitors">visitors</a></li>
+		<li><a href="./index.html?who=postdocs_project_scientists">postdocs and project scientists</a></li>
 	</ul>
 	<br>
 	<p style='font-size: 12px'>For questions, comments, or concerns please email <a href="mailto:beysenba@cs.cmu.edu">Ben Eysenbach</a>.</p>
+	</div>
 	</div>
 </body>
 </html>
