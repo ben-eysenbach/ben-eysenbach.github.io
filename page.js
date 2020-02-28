@@ -1,11 +1,22 @@
 var data = {
     "research": [
-
+        {
+            img: 'images/hipi.png',
+            title: 'Rewriting History with Inverse RL: Hindsight Inference for Policy Improvement',
+	    authors: 'Benjamin Eysenbach*, Young Geng*, Sergey Levine, Ruslan Salakhutdinov',
+            text: 'We show that <i>hindsight relabeling is inverse RL</i>, an observation that suggests that we can use inverse RL in tandem for RL algorithms to efficiently solve many tasks. We use this idea to generalize goal-relabeling techniques from prior work to general multi-task settings, including goal-reaching, domains with discrete sets of rewards, and those with linear reward functions. [<a href="https://arxiv.org/abs/2002.11089">paper</a>]',
+        },
+       {
+            img: 'images/maxent.png',
+            title: 'If MaxEnt RL is the Answer, What is the Question?',
+	    authors: 'Benjamin Eysenbach and Sergey Levine',
+            text: 'Experimentally, humans and animals seem to perform MaxEnt RL. However, MaxEnt RL does not optimize expected utility. In this paper, we formally show that MaxEnt RL does optimally solve certain classes of control problems with variability in the reward function. These results suggest a deeper connection between MaxEnt RL, robust control, and POMDPs. [<a href="https://arxiv.org/abs/1910.01913">paper</a>]',
+        },
         {
             img: 'images/sorb.png',
             title: 'Search on the Replay Buffer: Bridging Motion Planning and Reinforcement Learning',
 	    authors: 'Benjamin Eysenbach, Ruslan Salakhutdinov, Sergey Levine',
-            text: 'The history of learning for control has been an exciting back and forth between two broad classes of algorithms: planning and reinforcement learning. We introduce a general-purpose control algorithm that combines the strengths of planning and reinforcement learning to solve long-horizon, sparse-reward tasks. Using graph search over our replay buffer, we can automatically generate a sequence of subgoals, even in image-based environments. Our algorithm, search on the replay buffer (SoRB), enables agents to solve sparse reward tasks over one hundred steps, and generalizes substantially better than standard RL algorithms. ICLR 2019 Workshop on Structures and Priors in RL. [<a href="https://arxiv.org/pdf/1906.05253.pdf">paper</a>, <a href="http://bit.ly/rl_search">code (runs in your browser!)</a>]',
+            text: 'The history of learning for control has been an exciting back and forth between two broad classes of algorithms: planning and reinforcement learning. We introduce a general-purpose control algorithm that combines the strengths of planning and reinforcement learning to solve long-horizon, sparse-reward tasks. Using graph search over our replay buffer, we can automatically generate a sequence of subgoals, even in image-based environments. Our algorithm, search on the replay buffer (SoRB), enables agents to solve sparse reward tasks over one hundred steps, and generalizes substantially better than standard RL algorithms. NeurIPS 2020. [<a href="https://arxiv.org/pdf/1906.05253.pdf">paper</a>, <a href="http://bit.ly/rl_search">code (runs in your browser!)</a>, <a href="https://blog.ml.cmu.edu/2020/02/13/rl-for-planning-and-planning-for-rl/">blog post</a>]',
         },
         {
             img: 'images/smm_ant.png',
