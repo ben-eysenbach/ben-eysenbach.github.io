@@ -1,5 +1,11 @@
 var data = {
     "research": [
+    {
+      img: 'images/darc.gif',
+      title: 'Off-Dynamics Reinforcement Learning: Training for Transfer with Domain Classifiers',
+      authors: 'Benjamin Eysenbach*, Swapnil Asawa*, Shreyas Chaudhari*, Ruslan Salakhutdinov, Sergey Levine',
+      text: 'We propose a simple, practical, and intuitive approach for domain adaptation in RL. We show how to compensate for the difference in dynamics by modifying the reward function. This modified reward function is simple to estimate by learning auxiliary classifiers that distinguish source-domain transitions from target-domain transitions. Intuitively, the modified reward function penalizes the agent for visiting states and taking actions in the source domain which are not possible in the target domain. Said another way, the agent is penalized for transitions that would indicate that the agent is interacting with the source domain, rather than the target domain. ICML BIG Workshop (oral). [<a href="https://arxiv.org/abs/2006.13916">paper</a>, <a href="https://github.com/google-research/google-research/tree/master/darc">code</a>]'
+    },
         {
             img: 'images/hipi.png',
             title: 'Rewriting History with Inverse RL: Hindsight Inference for Policy Improvement',
