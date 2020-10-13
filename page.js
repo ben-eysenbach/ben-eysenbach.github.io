@@ -4,13 +4,13 @@ var data = {
       img: 'images/darc.gif',
       title: 'Off-Dynamics Reinforcement Learning: Training for Transfer with Domain Classifiers',
       authors: 'Benjamin Eysenbach*, Swapnil Asawa*, Shreyas Chaudhari*, Ruslan Salakhutdinov, Sergey Levine',
-      text: 'We propose a simple, practical, and intuitive approach for domain adaptation in RL. We show how to compensate for the difference in dynamics by modifying the reward function. This modified reward function is simple to estimate by learning auxiliary classifiers that distinguish source-domain transitions from target-domain transitions. Intuitively, the modified reward function penalizes the agent for visiting states and taking actions in the source domain which are not possible in the target domain. Said another way, the agent is penalized for transitions that would indicate that the agent is interacting with the source domain, rather than the target domain. ICML BIG Workshop (oral). [<a href="https://arxiv.org/abs/2006.13916">paper</a>, <a href="https://github.com/google-research/google-research/tree/master/darc">code</a>]'
+      text: 'We propose a simple, practical, and intuitive approach for domain adaptation in RL. We show how to compensate for the difference in dynamics by modifying the reward function. This modified reward function is simple to estimate by learning auxiliary classifiers that distinguish source-domain transitions from target-domain transitions. Intuitively, the modified reward function penalizes the agent for visiting states and taking actions in the source domain which are not possible in the target domain. Said another way, the agent is penalized for transitions that would indicate that the agent is interacting with the source domain, rather than the target domain. ICML BIG Workshop (oral). [<a href="https://arxiv.org/abs/2006.13916">paper</a>, <a href="https://github.com/google-research/google-research/tree/master/darc">code</a>, <a href="https://blog.ml.cmu.edu/2020/07/31/maintaining-the-illusion-of-reality-transfer-in-rl-by-keeping-agents-in-the-darc/">blog</a>]'
     },
         {
             img: 'images/hipi.png',
             title: 'Rewriting History with Inverse RL: Hindsight Inference for Policy Improvement',
 	    authors: 'Benjamin Eysenbach*, Young Geng*, Sergey Levine, Ruslan Salakhutdinov',
-            text: 'We show that <i>hindsight relabeling is inverse RL</i>, an observation that suggests that we can use inverse RL in tandem for RL algorithms to efficiently solve many tasks. We use this idea to generalize goal-relabeling techniques from prior work to general multi-task settings, including goal-reaching, domains with discrete sets of rewards, and those with linear reward functions. [<a href="https://arxiv.org/abs/2002.11089">paper</a>]',
+            text: 'We show that <i>hindsight relabeling is inverse RL</i>, an observation that suggests that we can use inverse RL in tandem for RL algorithms to efficiently solve many tasks. We use this idea to generalize goal-relabeling techniques from prior work to general multi-task settings, including goal-reaching, domains with discrete sets of rewards, and those with linear reward functions. NeurIPS 2020 (oral) [<a href="https://arxiv.org/abs/2002.11089">paper</a>, <a href="https://bair.berkeley.edu/blog/2020/10/13/supervised-rl/">blog</a>]',
         },
        {
             img: 'images/maxent.png',
@@ -122,7 +122,7 @@ var data = {
        {
            img: 'images/rl.jpg',
            title: '<a href="https://cmudeeprl.github.io/703website/">10-703: Deep Reinforcement Learning</a>',
-           text: 'Head TA in Fall 2019.',
+           text: 'Head TA in Fall 2019, Fall 2020.',
        },
      
        {
