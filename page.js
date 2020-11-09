@@ -10,7 +10,7 @@ var data = {
             img: 'images/hipi.png',
             title: 'Rewriting History with Inverse RL: Hindsight Inference for Policy Improvement',
 	    authors: 'Benjamin Eysenbach*, Young Geng*, Sergey Levine, Ruslan Salakhutdinov',
-            text: 'We show that <i>hindsight relabeling is inverse RL</i>, an observation that suggests that we can use inverse RL in tandem for RL algorithms to efficiently solve many tasks. We use this idea to generalize goal-relabeling techniques from prior work to general multi-task settings, including goal-reaching, domains with discrete sets of rewards, and those with linear reward functions. NeurIPS 2020 (oral) [<a href="https://arxiv.org/abs/2002.11089">paper</a>, <a href="https://bair.berkeley.edu/blog/2020/10/13/supervised-rl/">blog</a>]',
+            text: 'We show that <i>hindsight relabeling is inverse RL</i>, an observation that suggests that we can use inverse RL in tandem for RL algorithms to efficiently solve many tasks. We use this idea to generalize goal-relabeling techniques from prior work to general multi-task settings, including goal-reaching, domains with discrete sets of rewards, and those with linear reward functions. NeurIPS 2020 (oral) [<a href="https://arxiv.org/abs/2002.11089">paper</a>, <a href="https://github.com/google-research/google-research/tree/master/hipi">code</a>, <a href="https://bair.berkeley.edu/blog/2020/10/13/supervised-rl/">blog</a>]',
         },
        {
             img: 'images/maxent.png',
