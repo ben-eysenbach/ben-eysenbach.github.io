@@ -1,9 +1,15 @@
 var data = {
     "research": [
     {
+      img: 'images/c_learning_sawyer.gif',
+      title: 'C-Learning: Learning to Achieve Goals via Recursive Classification',
+      authors: 'Benjamin Eysenbach, Ruslan Salakhutdinov, Sergey Levine',
+      text: 'We reframe goal-conditioned RL as the problem of predicting and controlling the future state distribution of an autonomous agent. We solve this problem indirectly by training a classifier to predict whether an observation comes from the future. Importantly, an off-policy variant of our algorithm allows us to predict the future state distribution of a new policy, without collecting new experience. While conceptually similar to Q-learning, our approach provides a theoretical justification for goal-relabeling methods employed in prior work and suggests how the goal-sampling ratio can be optimally chosen. Empirically our method outperforms these prior methods. [<a href="http://arxiv.org/abs/2011.08909">paper</a>, <a href="https://ben-eysenbach.github.io/c_learning">website</a>, <a href="https://github.com/google-research/google-research/tree/master/c_learning">code</a>]'
+    },
+    {
       img: 'images/darc.gif',
       title: 'Off-Dynamics Reinforcement Learning: Training for Transfer with Domain Classifiers',
-      authors: 'Benjamin Eysenbach*, Swapnil Asawa*, Shreyas Chaudhari*, Ruslan Salakhutdinov, Sergey Levine',
+      authors: 'Benjamin Eysenbach*, Swapnil Asawa*, Shreyas Chaudhari*, Sergey Levine, Ruslan Salakhutdinov',
       text: 'We propose a simple, practical, and intuitive approach for domain adaptation in RL. We show how to compensate for the difference in dynamics by modifying the reward function. This modified reward function is simple to estimate by learning auxiliary classifiers that distinguish source-domain transitions from target-domain transitions. Intuitively, the modified reward function penalizes the agent for visiting states and taking actions in the source domain which are not possible in the target domain. Said another way, the agent is penalized for transitions that would indicate that the agent is interacting with the source domain, rather than the target domain. ICML BIG Workshop (oral). [<a href="https://arxiv.org/abs/2006.13916">paper</a>, <a href="https://github.com/google-research/google-research/tree/master/darc">code</a>, <a href="https://blog.ml.cmu.edu/2020/07/31/maintaining-the-illusion-of-reality-transfer-in-rl-by-keeping-agents-in-the-darc/">blog</a>]'
     },
         {
