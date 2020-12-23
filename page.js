@@ -4,25 +4,25 @@ var data = {
       img: 'images/c_learning_sawyer.gif',
       title: 'C-Learning: Learning to Achieve Goals via Recursive Classification',
       authors: 'Benjamin Eysenbach, Ruslan Salakhutdinov, Sergey Levine',
-      text: 'We reframe goal-conditioned RL as the problem of predicting and controlling the future state distribution of an autonomous agent. We solve this problem indirectly by training a classifier to predict whether an observation comes from the future. Importantly, an off-policy variant of our algorithm allows us to predict the future state distribution of a new policy, without collecting new experience. While conceptually similar to Q-learning, our approach provides a theoretical justification for goal-relabeling methods employed in prior work and suggests how the goal-sampling ratio can be optimally chosen. Empirically our method outperforms these prior methods. [<a href="http://arxiv.org/abs/2011.08909">paper</a>, <a href="https://ben-eysenbach.github.io/c_learning">website</a>, <a href="https://github.com/google-research/google-research/tree/master/c_learning">code</a>]'
+      text: 'We reframe goal-conditioned RL as the problem of predicting and controlling the future state distribution of an autonomous agent. We solve this problem indirectly by training a classifier to predict whether an observation comes from the future. Importantly, an off-policy variant of our algorithm allows us to predict the future state distribution of a new policy, without collecting new experience. While conceptually similar to Q-learning, our approach provides a theoretical justification for goal-relabeling methods employed in prior work and suggests how the goal-sampling ratio can be optimally chosen. Empirically our method outperforms these prior methods. [<a href="http://arxiv.org/abs/2011.08909">paper</a>, <a href="https://ben-eysenbach.github.io/c_learning">website</a>, <a href="https://github.com/google-research/google-research/tree/master/c_learning">code</a>, <a href="https://slideslive.com/38941367/clearning-learning-to-achieve-goals-via-recursive-classification?ref=account-folder-62083-folders">talk</a>]'
     },
     {
       img: 'images/darc.gif',
       title: 'Off-Dynamics Reinforcement Learning: Training for Transfer with Domain Classifiers',
       authors: 'Benjamin Eysenbach*, Swapnil Asawa*, Shreyas Chaudhari*, Sergey Levine, Ruslan Salakhutdinov',
-      text: 'We propose a simple, practical, and intuitive approach for domain adaptation in RL. We show how to compensate for the difference in dynamics by modifying the reward function. This modified reward function is simple to estimate by learning auxiliary classifiers that distinguish source-domain transitions from target-domain transitions. Intuitively, the modified reward function penalizes the agent for visiting states and taking actions in the source domain which are not possible in the target domain. Said another way, the agent is penalized for transitions that would indicate that the agent is interacting with the source domain, rather than the target domain. ICML BIG Workshop (oral). [<a href="https://arxiv.org/abs/2006.13916">paper</a>, <a href="https://github.com/google-research/google-research/tree/master/darc">code</a>, <a href="https://blog.ml.cmu.edu/2020/07/31/maintaining-the-illusion-of-reality-transfer-in-rl-by-keeping-agents-in-the-darc/">blog</a>]'
+      text: 'We propose a simple, practical, and intuitive approach for domain adaptation in RL. We show how to compensate for the difference in dynamics by modifying the reward function. This modified reward function is simple to estimate by learning auxiliary classifiers that distinguish source-domain transitions from target-domain transitions. Intuitively, the modified reward function penalizes the agent for visiting states and taking actions in the source domain which are not possible in the target domain. Said another way, the agent is penalized for transitions that would indicate that the agent is interacting with the source domain, rather than the target domain. ICML BIG Workshop (oral), NeurIPS Real World RL Workshop (spotlight). [<a href="https://arxiv.org/abs/2006.13916">paper</a>, <a href="https://github.com/google-research/google-research/tree/master/darc">code</a>, <a href="https://blog.ml.cmu.edu/2020/07/31/maintaining-the-illusion-of-reality-transfer-in-rl-by-keeping-agents-in-the-darc/">blog</a>, <a href="https://slideslive.com/38941276/offdynamics-reinforcement-learning-training-for-transfer-with-domain-classifiers?ref=account-folder-62083-folders">talk</a>]'
     },
         {
             img: 'images/hipi.png',
             title: 'Rewriting History with Inverse RL: Hindsight Inference for Policy Improvement',
 	    authors: 'Benjamin Eysenbach*, Young Geng*, Sergey Levine, Ruslan Salakhutdinov',
-            text: 'We show that <i>hindsight relabeling is inverse RL</i>, an observation that suggests that we can use inverse RL in tandem for RL algorithms to efficiently solve many tasks. We use this idea to generalize goal-relabeling techniques from prior work to general multi-task settings, including goal-reaching, domains with discrete sets of rewards, and those with linear reward functions. NeurIPS 2020 (oral) [<a href="https://arxiv.org/abs/2002.11089">paper</a>, <a href="https://github.com/google-research/google-research/tree/master/hipi">code</a>, <a href="https://bair.berkeley.edu/blog/2020/10/13/supervised-rl/">blog</a>]',
+            text: 'We show that <i>hindsight relabeling is inverse RL</i>, an observation that suggests that we can use inverse RL in tandem for RL algorithms to efficiently solve many tasks. We use this idea to generalize goal-relabeling techniques from prior work to general multi-task settings, including goal-reaching, domains with discrete sets of rewards, and those with linear reward functions. NeurIPS 2020 (oral) [<a href="https://arxiv.org/abs/2002.11089">paper</a>, <a href="https://github.com/google-research/google-research/tree/master/hipi">code</a>, <a href="https://bair.berkeley.edu/blog/2020/10/13/supervised-rl/">blog</a>, <a href="https://neurips.cc/virtual/2020/public/session_oral_21090.html">talk (oral @ NeurIPS)</a>]',
         },
        {
             img: 'images/maxent.png',
             title: 'If MaxEnt RL is the Answer, What is the Question?',
 	    authors: 'Benjamin Eysenbach and Sergey Levine',
-            text: 'Experimentally, humans and animals seem to perform MaxEnt RL. However, MaxEnt RL does not optimize expected utility. In this paper, we formally show that MaxEnt RL does optimally solve certain classes of control problems with variability in the reward function. These results suggest a deeper connection between MaxEnt RL, robust control, and POMDPs. [<a href="https://arxiv.org/abs/1910.01913">paper</a>]',
+            text: 'Experimentally, humans and animals seem to perform MaxEnt RL. However, MaxEnt RL does not optimize expected utility. In this paper, we formally show that MaxEnt RL does optimally solve certain classes of control problems with variability in the reward function. These results suggest a deeper connection between MaxEnt RL, robust control, and POMDPs. NeurIPS Deep RL Workshop (contributed talk). [<a href="https://drive.google.com/file/d/1fENhHpd2PQYRX0Dt2PggeMP9cyTNoR8k/view">robust control paper</a>, <a href="https://arxiv.org/abs/1910.01913">POMDP paper</a>, <a href="https://slideslive.com/38941344/maxent-rl-and-robust-control?ref=account-folder-62083-folders">talk</a>]',
         },
         {
             img: 'images/sorb.png',
@@ -162,20 +162,6 @@ var data = {
 }
 
 $('document').ready(function() {
-    // Add news
-    // for (var i = 0; i < data.news.length; i++) {
-    //     var proj = data.news[i];
-    //     var html = '<tr><td>&#8594; ' + proj + '</td></tr>';
-    //     $('table#news-table').append(html);
-    // }
-
-
-    // Add projects
-    for (var i = 0; i < data.projects.length; i++) {
-        var proj = data.projects[i];
-        var html = getProjectHTML(proj);
-        $('table#projects-table').append(html);
-    }
 
     // Add teaching
     for (var i = 0; i < data.teaching.length; i++) {
@@ -198,21 +184,6 @@ $('document').ready(function() {
         var html = getProjectHTML(proj);
         $('table#blog-table').append(html);
     }
-
-    // Change photo on hover
-    
-    // var serious_img = 'images/me/ben eysenbach_0139.jpg';
-    // var goofy_img = 'images/me/mustache.jpg';
-        
-    // $('img#profile-img').attr('src', serious_img);
-    //$('td#profile-img-td').hover(
-    //    function() {
-    //        $('img#profile-img').attr('src', goofy_img);
-    //    },
-    //
-    //    function() {
-    //        $('img#profile-img').attr('src', serious_img);
-    //    });
 
 });
 
