@@ -1,10 +1,28 @@
 var data = {
     "research": [
     {
+      img: 'images/mnm_lower_bound.gif',
+      title: 'Mismatched No More: Joint Model-Policy Optimization for Model-Based RL',
+      authors: 'Benjamin Eysenbach*, Alexander Khazatsky*, Sergey Levine, Ruslan Salakhutdinov',
+      text: 'MnM is a model-based RL algorithm that jointly trains the model and the policy, such that updates to either component increase a lower bound on expected return. The practical algorithm is conceptually similar to a GAN: a classifier distinguishes between real and fake transitions, the model is updated to produce transitions that look realistic, and the policy is updated to avoid states where the model predictions are unrealistic. In submission. [<a href="https://arxiv.org/abs/2110.02758">paper</a>, <a href="https://github.com/ben-eysenbach/mnm/blob/main/experiments.ipynb">code</a>]'
+    },
+    {
+      img: 'images/info_geometry.gif',
+      title: 'The Information Geometry of Unsupervised Reinforcement Learning',
+      authors: 'Benjamin Eysenbach, Ruslan Salakhutdinov, Sergey Levine',
+      text: 'Skill learning algorithms based on mutual information, such as DIAYN are often useful, but are they optimal? We show that these methods do not learn skills that are optimal for every possible reward function. Even if you tried to learn a very large number of skills, you would start getting repeats of old skills rather than learning some of these reward-maximizing behaviors. However, the distribution over skills provides an optimal initialization adapting to unknown reward functions using an idealized adaptation procedure, under some assumptions. In submission. [<a href="https://arxiv.org/abs/2110.02719">paper</a>, <a href="https://github.com/ben-eysenbach/info_geometry/blob/main/experiments.ipynb">code</a>]'
+    },
+    {
       img: 'images/rce.gif',
       title: 'Replacing Rewards with Examples: Example-Based Policy Search via Recursive Classification',
       authors: 'Benjamin Eysenbach, Sergey Levine, Ruslan Salakhutdinov',
-      text: 'We teach agents to perform tasks by providing examples of success, rather than reward functions. (In submission). [<a href="https://arxiv.org/abs/2103.12656">paper</a>, <a href="https://ben-eysenbach.github.io/rce">website</a>, <a href="https://github.com/google-research/google-research/tree/master/rce">code</a>, <a href="https://ai.googleblog.com/2021/03/recursive-classification-replacing.html">blog post</a>]'
+      text: 'We teach agents to perform tasks by providing examples of success, rather than reward functions. NeurIPS 2021 (oral). [<a href="https://arxiv.org/abs/2103.12656">paper</a>, <a href="https://ben-eysenbach.github.io/rce">website</a>, <a href="https://github.com/google-research/google-research/tree/master/rce">code</a>, <a href="https://ai.googleblog.com/2021/03/recursive-classification-replacing.html">blog post</a>]'
+    },
+    {
+      img: 'images/rpc_teaser.gif',
+      title: 'Robust Predictable Control',
+      authors: 'Benjamin Eysenbach, Ruslan Salakhutdinov, Sergey Levine',
+      text: 'By making agents pay for observing bits of information, we learn policies that are more robust and generalize more broadly. Intriguingly, these agents automatically acquire an internal model of the world, and change their actions to be self-consistent with this model. NeurIPS 2021 (spotlight). [<a href="https://arxiv.org/abs/2109.03214">paper</a>, <a href="https://ben-eysenbach.github.io/rpc">website</a>, <a href="https://github.com/google-research/google-research/tree/master/rpc">code</a>]'
     },
     {
       img: 'images/maxent_robust.gif',
@@ -12,12 +30,11 @@ var data = {
       authors: 'Benjamin Eysenbach, Sergey Levine',
       text: 'MaxEnt RL is not necessarily better than purpose-designed robust RL methods, but it is very simple and has appealing formal robustness guarantees. (In submission). [<a href="https://arxiv.org/abs/2103.06257">paper</a>, <a href="https://bair.berkeley.edu/blog/2021/03/10/maxent-robust-rl/">blog post</a>]'
     },
-  
     {
       img: 'images/c_learning_sawyer.gif',
       title: 'C-Learning: Learning to Achieve Goals via Recursive Classification',
       authors: 'Benjamin Eysenbach, Ruslan Salakhutdinov, Sergey Levine',
-      text: 'Viewing goal-conditioned RL as a problem of predicting the future, we derive a state-of-the-art goal-conditioned RL method. ICLR 2021. [<a href="http://arxiv.org/abs/2011.08909">paper</a>, <a href="https://ben-eysenbach.github.io/c_learning">website</a>, <a href="https://github.com/google-research/google-research/tree/master/c_learning">code</a>, <a href="https://slideslive.com/38941367/clearning-learning-to-achieve-goals-via-recursive-classification?ref=account-folder-62083-folders">talk</a>]'
+      text: 'C-learning is a state-of-the-art algorithm for goal-conditioned RL. The key idea is to view RL as a problem of predicting the future. Intriguing, hindsight relabeling emerges automatically, and our theory suggests how to choose a key hyperparameter. ICLR 2021. [<a href="http://arxiv.org/abs/2011.08909">paper</a>, <a href="https://ben-eysenbach.github.io/c_learning">website</a>, <a href="https://github.com/google-research/google-research/tree/master/c_learning">code</a>, <a href="https://slideslive.com/38941367/clearning-learning-to-achieve-goals-via-recursive-classification?ref=account-folder-62083-folders">talk</a>]'
     },
     {
       img: 'images/darc.gif',
