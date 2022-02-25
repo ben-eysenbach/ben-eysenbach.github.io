@@ -10,25 +10,25 @@ var data = {
       img: 'images/info_geometry.gif',
       title: 'The Information Geometry of Unsupervised Reinforcement Learning',
       authors: 'Benjamin Eysenbach, Ruslan Salakhutdinov, Sergey Levine',
-      text: 'Skill learning algorithms based on mutual information, such as DIAYN are often useful, but are they optimal? We show that these methods do not learn skills that are optimal for every possible reward function. Even if you tried to learn a very large number of skills, you would start getting repeats of old skills rather than learning some of these reward-maximizing behaviors. However, the distribution over skills provides an optimal initialization adapting to unknown reward functions using an idealized adaptation procedure, under some assumptions. In submission. [<a href="https://arxiv.org/abs/2110.02719">paper</a>, <a href="https://github.com/ben-eysenbach/info_geometry/blob/main/experiments.ipynb">code</a>]'
+      text: 'Skill learning algorithms based on mutual information, such as DIAYN are often useful, but are they optimal? We show that these methods do not learn skills that are optimal for every possible reward function. Even if you tried to learn a very large number of skills, you would start getting repeats of old skills rather than learning some of these reward-maximizing behaviors. However, the distribution over skills provides an optimal initialization adapting to unknown reward functions using an idealized adaptation procedure, under some assumptions. ICLR 2022 (oral, <2%). [<a href="https://arxiv.org/abs/2110.02719">paper</a>, <a href="https://github.com/ben-eysenbach/info_geometry/blob/main/experiments.ipynb">code</a>]'
     },
     {
       img: 'images/rce.gif',
       title: 'Replacing Rewards with Examples: Example-Based Policy Search via Recursive Classification',
       authors: 'Benjamin Eysenbach, Sergey Levine, Ruslan Salakhutdinov',
-      text: 'We teach agents to perform tasks by providing examples of success, rather than reward functions. NeurIPS 2021 (oral). [<a href="https://arxiv.org/abs/2103.12656">paper</a>, <a href="https://ben-eysenbach.github.io/rce">website</a>, <a href="https://github.com/google-research/google-research/tree/master/rce">code</a>, <a href="https://ai.googleblog.com/2021/03/recursive-classification-replacing.html">blog post</a>]'
+      text: 'We teach agents to perform tasks by providing examples of success, rather than reward functions. NeurIPS 2021 (oral, <1%). [<a href="https://arxiv.org/abs/2103.12656">paper</a>, <a href="https://ben-eysenbach.github.io/rce">website</a>, <a href="https://github.com/google-research/google-research/tree/master/rce">code</a>, <a href="https://ai.googleblog.com/2021/03/recursive-classification-replacing.html">blog post</a>]'
     },
     {
       img: 'images/rpc_teaser.gif',
       title: 'Robust Predictable Control',
       authors: 'Benjamin Eysenbach, Ruslan Salakhutdinov, Sergey Levine',
-      text: 'By making agents pay for observing bits of information, we learn policies that are more robust and generalize more broadly. Intriguingly, these agents automatically acquire an internal model of the world, and change their actions to be self-consistent with this model. NeurIPS 2021 (spotlight). [<a href="https://arxiv.org/abs/2109.03214">paper</a>, <a href="https://ben-eysenbach.github.io/rpc">website</a>, <a href="https://github.com/google-research/google-research/tree/master/rpc">code</a>]'
+      text: 'By making agents pay for observing bits of information, we learn policies that are more robust and generalize more broadly. Intriguingly, these agents automatically acquire an internal model of the world, and change their actions to be self-consistent with this model. NeurIPS 2021 (spotlight, <3%). [<a href="https://arxiv.org/abs/2109.03214">paper</a>, <a href="https://ben-eysenbach.github.io/rpc">website</a>, <a href="https://github.com/google-research/google-research/tree/master/rpc">code</a>]'
     },
     {
       img: 'images/maxent_robust.gif',
       title: 'Maximum Entropy RL (Provably) Solves Some Robust RL Problems',
       authors: 'Benjamin Eysenbach, Sergey Levine',
-      text: 'MaxEnt RL is not necessarily better than purpose-designed robust RL methods, but it is very simple and has appealing formal robustness guarantees. (In submission). [<a href="https://arxiv.org/abs/2103.06257">paper</a>, <a href="https://bair.berkeley.edu/blog/2021/03/10/maxent-robust-rl/">blog post</a>]'
+      text: 'MaxEnt RL is not necessarily better than purpose-designed robust RL methods, but it is very simple and has appealing formal robustness guarantees. ICLR 2022. [<a href="https://arxiv.org/abs/2103.06257">paper</a>, <a href="https://bair.berkeley.edu/blog/2021/03/10/maxent-robust-rl/">blog post</a>]'
     },
     {
       img: 'images/c_learning_sawyer.gif',
@@ -46,13 +46,7 @@ var data = {
             img: 'images/hipi.png',
             title: 'Rewriting History with Inverse RL: Hindsight Inference for Policy Improvement',
 	    authors: 'Benjamin Eysenbach*, Young Geng*, Sergey Levine, Ruslan Salakhutdinov',
-            text: 'We show that <i>hindsight relabeling is inverse RL</i>, an observation that suggests that we can use inverse RL in tandem for RL algorithms to efficiently solve many tasks. NeurIPS 2020 (oral) [<a href="https://arxiv.org/abs/2002.11089">paper</a>, <a href="https://github.com/google-research/google-research/tree/master/hipi">code</a>, <a href="https://bair.berkeley.edu/blog/2020/10/13/supervised-rl/">blog</a>, <a href="https://neurips.cc/virtual/2020/public/session_oral_21090.html">talk (oral @ NeurIPS)</a>]',
-        },
-       {
-            img: 'images/maxent.png',
-            title: 'If MaxEnt RL is the Answer, What is the Question?',
-	    authors: 'Benjamin Eysenbach and Sergey Levine',
-            text: 'MaxEnt RL optimally solves certain classes of control problems with variability in the reward function. NeurIPS Deep RL Workshop (contributed talk). [<a href="https://drive.google.com/file/d/1fENhHpd2PQYRX0Dt2PggeMP9cyTNoR8k/view">robust control paper</a>, <a href="https://arxiv.org/abs/1910.01913">POMDP paper</a>, <a href="https://slideslive.com/38941344/maxent-rl-and-robust-control?ref=account-folder-62083-folders">talk</a>]',
+            text: 'We show that <i>hindsight relabeling is inverse RL</i>, an observation that suggests that we can use inverse RL in tandem for RL algorithms to efficiently solve many tasks. NeurIPS 2020 (oral, 1%) [<a href="https://arxiv.org/abs/2002.11089">paper</a>, <a href="https://github.com/google-research/google-research/tree/master/hipi">code</a>, <a href="https://bair.berkeley.edu/blog/2020/10/13/supervised-rl/">blog</a>, <a href="https://neurips.cc/virtual/2020/public/session_oral_21090.html">talk (oral @ NeurIPS)</a>]',
         },
         {
             img: 'images/sorb.png',
@@ -78,25 +72,12 @@ var data = {
 	    authors: 'Benjamin Eysenbach, Abhishek Gupta, Julian Ibarz, Sergey Levine',
             text: 'Maximizing mutual information results in the (unsupervised) emergence of diverse skills, such as walking and jumping. ICLR 2019. [<a href="https://arxiv.org/pdf/1802.06070">paper</a>, <a href="https://sites.google.com/view/diayn/home">website</a>, <a href="https://github.com/ben-eysenbach/sac">code</a>]',
         },
-	 {
-            img: 'images/sectar.png',
-            title: 'Self-Consistent Trajectory Autoencoder: Hierarchical Reinforcement Learning with Trajectory Embeddings',
-	    authors: 'John D Co-Reyes, YuXuan Liu, Abhishek Gupta, Benjamin Eysenbach, Pieter Abbeel, Sergey Levine',
-            text: 'We learn continuous latent representations of trajectories, which are effective in solving temporally extended and multi-stage problems. ICML 2018. [<a href="http://proceedings.mlr.press/v80/co-reyes18a.html">paper</a>]',
-        },
-		
         {
             img: 'images/lnt.gif',
             title: 'Leave No Trace: Learning to Reset for Safe and Autonomous Reinforcement Learning',
 	    authors: 'Benjamin Eysenbach, Shixiang Gu, Julian Ibarz, Sergey Levine',
             text: 'We teach agents how to reset themselves. ICLR 2018. [<a href="https://arxiv.org/abs/1711.06782">paper</a>, <a href="https://sites.google.com/site/mlleavenotrace/">website</a>, <a href="https://github.com/brain-research/LeaveNoTrace">code</a>]<br><a href="https://www.technologyreview.com/the-download/609562/robots-get-an-undo-button-that-could-help-them-learn-faster/"><img src="images/tr.png" width=50px></a>',
         },
-        {
-            img: 'images/mistaken.png',
-            title: 'Who is Mistaken?',
-	    authors: 'Benjamin Eysenbach, Carl Vondrick, Antonio Torralba',
-            text: 'Predict when humans will have incorrect beliefs about the world. [<a href="http://people.csail.mit.edu/bce/mistaken/">website</a>, <a href="https://arxiv.org/pdf/1612.01175v1.pdf">paper</a>]'
-	},
     // {
     //     img: 'images/clustervision.png',
     //     title: 'Clustervision: Visual Supervision of Unsupervised Clustering',
