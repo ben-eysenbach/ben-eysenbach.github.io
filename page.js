@@ -6,12 +6,12 @@ var data = {
       authors: 'Benjamin Eysenbach, Tianjun Zhang, Sergey Levine, Ruslan Salakhutdinov',
       text: 'We show how contrastive learning can be viewed as a complete goal-conditioned RL algorithm. It turns out that existing contrastive learning algorithms, when applied to appropriate inputs, are already competitive with prior goal-conditioned RL methods. Intriguingly, they can solve high-dimensional tasks without the need for auxiliary representation learning, a requirement of many prior RL methods. In submission. [<a href="https://arxiv.org/pdf/2206.07568.pdf">paper</a>, <a href="https://ben-eysenbach.github.io/contrastive_rl">project website</a>, <a href="https://github.com/google-research/google-research/tree/master/contrastive_rl">code</a>]'
     },
-    {
-      img: 'images/mnm_lower_bound.gif',
-      title: 'Mismatched No More: Joint Model-Policy Optimization for Model-Based RL',
-      authors: 'Benjamin Eysenbach*, Alexander Khazatsky*, Sergey Levine, Ruslan Salakhutdinov',
-      text: 'MnM is a model-based RL algorithm that jointly trains the model and the policy, such that updates to either component increase a lower bound on expected return. The practical algorithm is conceptually similar to a GAN: a classifier distinguishes between real and fake transitions, the model is updated to produce transitions that look realistic, and the policy is updated to avoid states where the model predictions are unrealistic. In submission. [<a href="https://arxiv.org/abs/2110.02758">paper</a>, <a href="https://github.com/ben-eysenbach/mnm/blob/main/experiments.ipynb">code</a>]'
-    },
+    // {
+    //   img: 'images/mnm_lower_bound.gif',
+    //   title: 'Mismatched No More: Joint Model-Policy Optimization for Model-Based RL',
+    //   authors: 'Benjamin Eysenbach*, Alexander Khazatsky*, Sergey Levine, Ruslan Salakhutdinov',
+    //   text: 'MnM is a model-based RL algorithm that jointly trains the model and the policy, such that updates to either component increase a lower bound on expected return. The practical algorithm is conceptually similar to a GAN: a classifier distinguishes between real and fake transitions, the model is updated to produce transitions that look realistic, and the policy is updated to avoid states where the model predictions are unrealistic. In submission. [<a href="https://arxiv.org/abs/2110.02758">paper</a>, <a href="https://github.com/ben-eysenbach/mnm/blob/main/experiments.ipynb">code</a>]'
+    // },
     {
       img: 'images/info_geometry.gif',
       title: 'The Information Geometry of Unsupervised Reinforcement Learning',
@@ -60,12 +60,12 @@ var data = {
 	    authors: 'Benjamin Eysenbach, Ruslan Salakhutdinov, Sergey Levine',
             text: 'Combining RL with non-parametric planning improves performance by 10x - 100x, without requiring any additional training. NeurIPS 2020. [<a href="https://arxiv.org/pdf/1906.05253.pdf">paper</a>, <a href="http://bit.ly/rl_search">code (runs in your browser!)</a>, <a href="https://blog.ml.cmu.edu/2020/02/13/rl-for-planning-and-planning-for-rl/">blog post</a>]',
         },
-        {
-            img: 'images/smm_ant.png',
-            title: 'Efficient Exploration via State Marginal Matching',
-	    authors: 'Lisa Lee*, Benjamin Eysenbach*, Emilio Parisotto*, Eric Xing, Sergey Levine, Ruslan Salakhutdinov',
-            text: 'Maximizing marginal state entropy is a good way to do exploration; many prior exploration methods are approximations of this. ICLR 2019, Workshop on Structures and Priors in RL (oral) and Workshop on Task Agnostic RL (oral). [<a href="https://arxiv.org/pdf/1906.05274.pdf">paper</a>, <a href="https://sites.google.com/view/state-marginal-matching">website</a>, <a href="https://github.com/RLAgent/state-marginal-matching">code</a>]',
-        },
+        // {
+        //     img: 'images/smm_ant.png',
+        //     title: 'Efficient Exploration via State Marginal Matching',
+	    // authors: 'Lisa Lee*, Benjamin Eysenbach*, Emilio Parisotto*, Eric Xing, Sergey Levine, Ruslan Salakhutdinov',
+        //     text: 'Maximizing marginal state entropy is a good way to do exploration; many prior exploration methods are approximations of this. ICLR 2019, Workshop on Structures and Priors in RL (oral) and Workshop on Task Agnostic RL (oral). [<a href="https://arxiv.org/pdf/1906.05274.pdf">paper</a>, <a href="https://sites.google.com/view/state-marginal-matching">website</a>, <a href="https://github.com/RLAgent/state-marginal-matching">code</a>]',
+        // },
 	// {
         //     img: 'images/unknown_rewards.png',
         //     title: 'Reinforcement Learning with Unknown Reward Functions',

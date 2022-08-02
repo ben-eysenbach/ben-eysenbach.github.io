@@ -1,5 +1,5 @@
 body {
-    background-color: #eee;
+    background-color: #f8f8f8;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
 }
@@ -29,14 +29,12 @@ table#personal-statement-table {
 }
 
 img#profile-img {
-    max-height: 300px;
-    height: auto;
-    border-radius: 15px;
-      display: block;
+  max-height: 230px;
+  height: auto;
+  border-radius: 5px;
+  display: block;
   margin-left: auto;
-  margin-right: 20px;
-  margin-top: 16px;
-  padding: 5px;
+  margin: 10px 10px 10px 25px;
 }
 
 div#links {
@@ -52,8 +50,24 @@ h1 {
     margin: 10px;
 }
 
+p {
+    margin: 10px 20px;
+}
+
+div#intro p {
+    text-align: justify;
+}
+
+
 ul {
-/*     list-style-type: none; */
+    list-style-type: square;
+}
+
+li {
+    margin: 10px 0px;
+}
+ul#questions li {
+    margin: 0px;
 }
 
 span.helper {
@@ -85,11 +99,17 @@ div.container {
 }
 
 a {
-    color: #47D;
+    /* color: #47D; */
+    color: #0C79E8;
 }
+
+div#title a {
+    margin: 0px 5px;
+}
+
 h2 {
     color: #E87B0C;
-    margin-left: 5%;
+    margin: 10px 20px;
 }
 td#personal-statement-td {
     width: 70%;
