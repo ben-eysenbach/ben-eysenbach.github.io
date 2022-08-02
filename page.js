@@ -1,6 +1,12 @@
 var data = {
     "research": [
     {
+      img: 'images/contrastive_rl.png',
+      title: 'Contrastive Learning as Goal-Conditioned Reinforcement Learning',
+      authors: 'Benjamin Eysenbach, Tianjun Zhang, Sergey Levine, Ruslan Salakhutdinov',
+      text: 'We show how contrastive learning can be viewed as a complete goal-conditioned RL algorithm. It turns out that existing contrastive learning algorithms, when applied to appropriate inputs, are already competitive with prior goal-conditioned RL methods. Intriguingly, they can solve high-dimensional tasks without the need for auxiliary representation learning, a requirement of many prior RL methods. In submission. [<a href="https://arxiv.org/pdf/2206.07568.pdf">paper</a>, <a href="https://ben-eysenbach.github.io/contrastive_rl">project website</a>, <a href="https://github.com/google-research/google-research/tree/master/contrastive_rl">code</a>]'
+    },
+    {
       img: 'images/mnm_lower_bound.gif',
       title: 'Mismatched No More: Joint Model-Policy Optimization for Model-Based RL',
       authors: 'Benjamin Eysenbach*, Alexander Khazatsky*, Sergey Levine, Ruslan Salakhutdinov',
@@ -36,12 +42,12 @@ var data = {
       authors: 'Benjamin Eysenbach, Ruslan Salakhutdinov, Sergey Levine',
       text: 'C-learning is a state-of-the-art algorithm for goal-conditioned RL. The key idea is to view RL as a problem of predicting the future. Intriguing, hindsight relabeling emerges automatically, and our theory suggests how to choose a key hyperparameter. ICLR 2021. [<a href="http://arxiv.org/abs/2011.08909">paper</a>, <a href="https://ben-eysenbach.github.io/c_learning">website</a>, <a href="https://github.com/google-research/google-research/tree/master/c_learning">code</a>, <a href="https://slideslive.com/38941367/clearning-learning-to-achieve-goals-via-recursive-classification?ref=account-folder-62083-folders">talk</a>]'
     },
-    {
-      img: 'images/darc.gif',
-      title: 'Off-Dynamics Reinforcement Learning: Training for Transfer with Domain Classifiers',
-      authors: 'Benjamin Eysenbach*, Swapnil Asawa*, Shreyas Chaudhari*, Sergey Levine, Ruslan Salakhutdinov',
-      text: 'If the training and testing environments have different dynamics, compensate for that difference by modifying the reward function using a learned classifier. ICLR 2021, ICML BIG Workshop (oral), NeurIPS Real World RL Workshop (spotlight). [<a href="https://arxiv.org/abs/2006.13916">paper</a>, <a href="https://github.com/google-research/google-research/tree/master/darc">code</a>, <a href="https://blog.ml.cmu.edu/2020/07/31/maintaining-the-illusion-of-reality-transfer-in-rl-by-keeping-agents-in-the-darc/">blog</a>, <a href="https://slideslive.com/38941276/offdynamics-reinforcement-learning-training-for-transfer-with-domain-classifiers?ref=account-folder-62083-folders">talk</a>]'
-    },
+    // {
+    //   img: 'images/darc.gif',
+    //   title: 'Off-Dynamics Reinforcement Learning: Training for Transfer with Domain Classifiers',
+    //   authors: 'Benjamin Eysenbach*, Swapnil Asawa*, Shreyas Chaudhari*, Sergey Levine, Ruslan Salakhutdinov',
+    //   text: 'If the training and testing environments have different dynamics, compensate for that difference by modifying the reward function using a learned classifier. ICLR 2021, ICML BIG Workshop (oral), NeurIPS Real World RL Workshop (spotlight). [<a href="https://arxiv.org/abs/2006.13916">paper</a>, <a href="https://github.com/google-research/google-research/tree/master/darc">code</a>, <a href="https://blog.ml.cmu.edu/2020/07/31/maintaining-the-illusion-of-reality-transfer-in-rl-by-keeping-agents-in-the-darc/">blog</a>, <a href="https://slideslive.com/38941276/offdynamics-reinforcement-learning-training-for-transfer-with-domain-classifiers?ref=account-folder-62083-folders">talk</a>]'
+    // },
         {
             img: 'images/hipi.png',
             title: 'Rewriting History with Inverse RL: Hindsight Inference for Policy Improvement',
@@ -72,12 +78,12 @@ var data = {
 	    authors: 'Benjamin Eysenbach, Abhishek Gupta, Julian Ibarz, Sergey Levine',
             text: 'Maximizing mutual information results in the (unsupervised) emergence of diverse skills, such as walking and jumping. ICLR 2019. [<a href="https://arxiv.org/pdf/1802.06070">paper</a>, <a href="https://sites.google.com/view/diayn/home">website</a>, <a href="https://github.com/ben-eysenbach/sac">code</a>]',
         },
-        {
-            img: 'images/lnt.gif',
-            title: 'Leave No Trace: Learning to Reset for Safe and Autonomous Reinforcement Learning',
-	    authors: 'Benjamin Eysenbach, Shixiang Gu, Julian Ibarz, Sergey Levine',
-            text: 'We teach agents how to reset themselves. ICLR 2018. [<a href="https://arxiv.org/abs/1711.06782">paper</a>, <a href="https://sites.google.com/site/mlleavenotrace/">website</a>, <a href="https://github.com/brain-research/LeaveNoTrace">code</a>]<br><a href="https://www.technologyreview.com/the-download/609562/robots-get-an-undo-button-that-could-help-them-learn-faster/"><img src="images/tr.png" width=50px></a>',
-        },
+        // {
+        //     img: 'images/lnt.gif',
+        //     title: 'Leave No Trace: Learning to Reset for Safe and Autonomous Reinforcement Learning',
+	//     authors: 'Benjamin Eysenbach, Shixiang Gu, Julian Ibarz, Sergey Levine',
+        //     text: 'We teach agents how to reset themselves. ICLR 2018. [<a href="https://arxiv.org/abs/1711.06782">paper</a>, <a href="https://sites.google.com/site/mlleavenotrace/">website</a>, <a href="https://github.com/brain-research/LeaveNoTrace">code</a>]<br><a href="https://www.technologyreview.com/the-download/609562/robots-get-an-undo-button-that-could-help-them-learn-faster/"><img src="images/tr.png" width=50px></a>',
+        // },
     // {
     //     img: 'images/clustervision.png',
     //     title: 'Clustervision: Visual Supervision of Unsupervised Clustering',
@@ -171,16 +177,16 @@ var data = {
         }],
     "news": [
     ],
-}
+};
 
 $('document').ready(function() {
 
     // Add teaching
-    for (var i = 0; i < data.teaching.length; i++) {
-        var proj = data.teaching[i];
-        var html = getProjectHTML(proj);
-        $('table#teaching-table').append(html);
-    }
+    // for (var i = 0; i < data.teaching.length; i++) {
+    //     var proj = data.teaching[i];
+    //     var html = getProjectHTML(proj);
+    //     $('table#teaching-table').append(html);
+    // }
 
 
     // Add research
@@ -191,11 +197,11 @@ $('document').ready(function() {
     }
 
     // Add blog
-    for (var i = 0; i < data.blog.length; i++) {
-        var proj = data.blog[i];
-        var html = getProjectHTML(proj);
-        $('table#blog-table').append(html);
-    }
+    // for (var i = 0; i < data.blog.length; i++) {
+    //     var proj = data.blog[i];
+    //     var html = getProjectHTML(proj);
+    //     $('table#blog-table').append(html);
+    // }
 
 });
 
@@ -205,7 +211,7 @@ function getProjectHTML(proj) {
     // Add image
     html += '<td class="image-td"><img class="project-img" src="' + proj.img + '"></td>';
     // Add title and description
-    html += '<td class="description-td"><p><em>' + proj.title + '</em>. '
+    html += '<td class="description-td"><p><em>' + proj.title + '</em>. ';
     if ('authors' in proj) {
         html += '<small>' + proj.authors + '</small>';
     }

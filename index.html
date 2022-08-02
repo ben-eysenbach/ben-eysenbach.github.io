@@ -26,31 +26,17 @@
   <div id="title">
     <h1>Ben Eysenbach</h1>
     <p>
-      PhD Student at CMU &amp; Student Researcher at Google Brain<br>
+      PhD Student at CMU<br>
       beysenba<span style="display:none">spam</span>@cs.cmu.edu, <a href="https://twitter.com/ben_eysenbach">@ben_eysenbach</a>
     </p>
   </div>
 
-  <!-- links -->
-  <!--
-  <div class="container" id="links">
-  <p><hr></p>
-  <p>
-    <a href="#research">Research</a>
-    <a href="#teaching">Teaching</a>
-    <a href="#blog">Blog</a>
-    <a href="resume.pdf">Resume</a>
-  </p>
-  <br>
-  <p><hr width=100%></p>
-  </div>
-  -->
-
-
+  
   <div class="container" style="margin: 0px 20px; width: 760px;">
-<img id='profile-img' style="float:right" src="images/me/whiteboard.jpg" alt="Ben Eysenbach">
-<p><b>Bio</b>: I'm a PhD student in the Machine Learning Department at Carnegie Mellon University and a student researcher in Google Brain. I am co-advised by <a href="http://www.cs.cmu.edu/~rsalakhu/">Ruslan Salakhutdinov</a> and <a href="https://people.eecs.berkeley.edu/~svlevine/">Sergey Levine</a>. My PhD is supported by the National Science Foundation (GFRP) and the Hertz Fellowship. Previously, I was a <a href="https://research.google.com/teams/brain/residency/">Resident</a> at Google Brain.  I studied math and computer science at MIT.<!-- (<a href="bio.html">formal bio</a>)--></p>
-<p><b>Research summary</b>: My research has focused on designing better RL algorithms.
+<img id='profile-img' style="float:right" src="images/me/headshot.jpg" alt="Ben Eysenbach">
+<p>I'm a PhD student in the Machine Learning Department at Carnegie Mellon University and a student researcher in Google Brain. I am co-advised by <a href="http://www.cs.cmu.edu/~rsalakhu/">Ruslan Salakhutdinov</a> and <a href="https://people.eecs.berkeley.edu/~svlevine/">Sergey Levine</a>. My PhD is supported by the National Science Foundation (GFRP) and the Hertz Fellowship. Previously, I was a <a href="https://research.google.com/teams/brain/residency/">Resident</a> at Google Brain.  I studied math and computer science at MIT.<!-- (<a href="bio.html">formal bio</a>)--> <b>I will be on the faculty job market in Fall 2022</b></p>
+
+<p>My research studies algorithms for decision making (reinforcement learning). I aim to understand and reveal the underlying structure of these algorithms, so that we can design new and better algorithms. Areas of interest include:
 <ul>
   <li>Data-driven control [<a href="https://arxiv.org/abs/2011.08909">1</a>, <a href="https://arxiv.org/abs/2103.12656">2</a>]</li>
   <li>Planning and inference [<a href="https://arxiv.org/abs/1906.05253">1</a>, <a href="https://arxiv.org/abs/2002.11089">2</a>, <a href="https://arxiv.org/abs/2110.12080"></a>]</li>
@@ -60,6 +46,14 @@
 </ul>
 <p><b>Research opportunities</b>: I am usually looking for students to help with research projects both during the semester and over the summer. If you are interested, please send me an email. I especially encourage students from underrepresented groups to reach out.</p>
  
+
+  <div>
+    <p style="width: 25%; float: left; text-align: center; margin: 0px"><a href="#news">News</a></p>
+    <p style="width: 25%; float: left; text-align: center; margin: 0px"><a href="#research">Research</a></p>
+    <p style="width: 25%; float: left; text-align: center; margin: 0px"><a href="#talks">Talks</a></p>
+    <p style="width: 25%; float: left; text-align: center; margin: 0px"><a href="#teaching">Teaching</a></p>
+  </div><br>
+
     <hr>
    </div>
 <br>
@@ -67,15 +61,12 @@
   <div class="container" id="news">
       <h2>News</h2>
       <small>
-    <ul>
-      <li>A few projects were accepted to ICLR 2022:
+        Three projects that collaborators and I have been working on in Summer 2022.
           <ul>
-            <li><a href="https://arxiv.org/abs/2110.02719">The Information Geometry of Unsupervised Reinforcement Learning</a> (oral): We prove that unsupervised skill learning algorithms, such as DIAYN, are not optimal for learning all reward-maximizing policies. I think this work is interesting because it suggests that other, yet-uninvented, skill learning algorithms may be much better for preparing to solve new tasks.</li>
-            <li><a href="https://bair.berkeley.edu/blog/2021/03/10/maxent-robust-rl/">Maximum Entropy RL (Provably) Solves Some Robust RL Problems</a>: MaxEnt RL is not necessarily better than purpose-designed robust RL methods, but it is very simple and has appealing formal robustness guarantees.</li>
-            <li><a href="https://arxiv.org/abs/2110.12080">C-Planning: An Automatic Curriculum for Learning Goal-Reaching Tasks</a> (with Tianjun Zhang): We apply variational inference to the problem of goal-conditioned RL: the M step corresponds to short-horizon goal reaching ("thinking fast") while the E step corresponds to long-horizon planning ("thinking slow"). The resulting method significantly outperforms prior goal-conditioned RL methods, and does so without requiring any planning at test time.</li>
-            <li><a href="https://arxiv.org/abs/2112.10751">RvS: What is Essential for Offline RL via Supervised Learning?</a> (with <a href="http://scottemmons.com/">Scott Emmons</a> and <a href="https://www.kostrikov.xyz/">Ilya Kostrikov</a>): We show that simple conditional behavior cloning performs surprisingly well on offline RL benchmarks, if certain design decisions are made appropriately.</li>
+            <li><a href="https://arxiv.org/pdf/2206.07568.pdf">Contrastive Learning as Goal-Conditioned Reinforcement Learning</a>: With <a href="https://tianjunz.github.io/">Tianjun Zhang</a>. We show how contrastive learning can be viewed as a complete goal-conditioned RL algorithm. It turns out that existing contrastive learning algorithms, when applied to appropriate inputs, are already competitive with prior goal-conditioned RL methods. Intriguingly, they can solve high-dimensional tasks without the need for auxiliary representation learning, a requirement of many prior RL methods.</li>
+            <li><a href="https://arxiv.org/pdf/2206.01367.pdf">Adversarial Unlearning: Reducing Confidence Along Adversarial Directions</a>: Led by <a href="https://ars22.github.io/">Amrith Setlur</a>. While most supervised learning methods mitigate overfitting by training on additional, realistic examples, we show that training a model to make unconfident predictions on "garbage" inputs can increase test accuracy, and does so in a way that's complementary to prior regularization methods (e.g., data augmentation, label smoothing).</li>
+            <li><a href="https://arxiv.org/pdf/2206.03378.pdf">Imitating Past Successes can be Very Suboptimal</a> With Soumith Udatha. A simple and common approach to RL is to simply imitate the strategies that worked in the past. We show that this approach has a subtle yet important flaw, and can actually produce strategies that become worse and worse. We propose a simple fix.</li>
           </ul>
-    </ul>
       </small>
     <table id="news-table" style="padding: 0px 20px"></table>
     <hr>
@@ -90,21 +81,40 @@
     <hr>
   </div>
 
+  <div class="container" id="talks">
+    <h2>Selected Talks</h2>
+    <ul>
+      <li><a href="https://www.youtube.com/watch?v=7THK9u6UtgE">Replacing Rewards with Examples: Example-Based Policy Search via Recursive Classification</a> (oral at NeurIPS 2021)</li>
+      <li><a href="https://www.youtube.com/watch?v=8JZYdWbyhCY">The Information Geometry of Unsupervised Reinforcement Learning</a> (oral at ICLR 2022)</li>
+      <li><a href="https://www.youtube.com/watch?v=T57SxBKVxPQ">C-Learning: Learning to Achieve Goals via Recursive Classification</a> (ICLR 2021)</li>
+      <li><a href="https://www.youtube.com/watch?v=lyIVutL-nXY">Rewriting Experience with Inverse RL: Hindsight Inference for Policy Improvement</a> (oral at NeurIPS 2020)</li>
+    </ul>
+    <hr>
+  </div>
+ 
+
   <div class="container" id="teaching">
     <h2>Teaching</h2>
-    <table id="teaching-table"></table>
+    <!-- <table id="teaching-table"></table> -->
+    <ul>
+      <li><a href="https://cmudeeprl.github.io/703website/">10-703: Deep Reinforcement Learning</a>. Head TA in Fall 2019 and Fall 2020.</li>
+      <li><a href="http://web.mit.edu/6.008/www/">6.008: Introduction to Inference</a>. TA in Fall 2016.</li>
+      <li><a href="http://mit.edu/6.042/">6.042: Math for Computer Science</a>. TA in Spring 2015.</li>
+    </ul>
     <hr>
   </div>
  
  
+  <!--
   <div class="container" id="blog">
     <h2>Assorted Blog Posts</h2>
     <table id="blog-table"></table>
     <hr>
   </div>
+  -->
 
   <div class="container">
-    <p id="copyright">© 2021 Ben Eysenbach</p>
+    <p id="copyright">© 2022 Ben Eysenbach</p>
   </div>
 
 
