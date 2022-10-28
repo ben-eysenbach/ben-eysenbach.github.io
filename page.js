@@ -1,17 +1,27 @@
 var data = {
     "research": [
     {
-      img: 'images/contrastive_rl.png',
+      img: 'images/contrastive.gif',
       title: 'Contrastive Learning as Goal-Conditioned Reinforcement Learning',
-      authors: 'Benjamin Eysenbach, Tianjun Zhang, Sergey Levine, Ruslan Salakhutdinov',
-      text: 'We show how contrastive learning can be viewed as a complete goal-conditioned RL algorithm. It turns out that existing contrastive learning algorithms, when applied to appropriate inputs, are already competitive with prior goal-conditioned RL methods. Intriguingly, they can solve high-dimensional tasks without the need for auxiliary representation learning, a requirement of many prior RL methods. In submission. [<a href="https://arxiv.org/pdf/2206.07568.pdf">paper</a>, <a href="https://ben-eysenbach.github.io/contrastive_rl">project website</a>, <a href="https://github.com/google-research/google-research/tree/master/contrastive_rl">code</a>]'
+      authors: 'Benjamin Eysenbach*, Tianjun Zhang*, Sergey Levine, Ruslan Salakhutdinov',
+      text: 'We show how contrastive learning can be viewed as a complete goal-conditioned RL algorithm. It turns out that existing contrastive learning algorithms, when applied to appropriate inputs, are already competitive with prior goal-conditioned RL methods. Intriguingly, they can solve high-dimensional tasks without the need for auxiliary representation learning, a requirement of many prior RL methods. NeurIPS 2022. [<a href="https://arxiv.org/pdf/2206.07568.pdf">paper</a>, <a href="https://ben-eysenbach.github.io/contrastive_rl">project website</a>, <a href="https://github.com/google-research/google-research/tree/master/contrastive_rl">code</a>, <a href="https://youtu.be/5_eGcprfw60">talk</a>]'
     },
-    // {
-    //   img: 'images/mnm_lower_bound.gif',
-    //   title: 'Mismatched No More: Joint Model-Policy Optimization for Model-Based RL',
-    //   authors: 'Benjamin Eysenbach*, Alexander Khazatsky*, Sergey Levine, Ruslan Salakhutdinov',
-    //   text: 'MnM is a model-based RL algorithm that jointly trains the model and the policy, such that updates to either component increase a lower bound on expected return. The practical algorithm is conceptually similar to a GAN: a classifier distinguishes between real and fake transitions, the model is updated to produce transitions that look realistic, and the policy is updated to avoid states where the model predictions are unrealistic. In submission. [<a href="https://arxiv.org/abs/2110.02758">paper</a>, <a href="https://github.com/ben-eysenbach/mnm/blob/main/experiments.ipynb">code</a>]'
-    // },
+    {
+      img: 'images/mnm_lower_bound.gif',
+      title: 'Mismatched No More: Joint Model-Policy Optimization for Model-Based RL',
+      authors: 'Benjamin Eysenbach*, Alexander Khazatsky*, Sergey Levine, Ruslan Salakhutdinov',
+      text: 'MnM is a model-based RL algorithm that jointly trains the model and the policy, such that updates to either component increase a lower bound on expected return. The practical algorithm is conceptually similar to a GAN: a classifier distinguishes between real and fake transitions, the model is updated to produce transitions that look realistic, and the policy is updated to avoid states where the model predictions are unrealistic. NeurIPS 2022. [<a href="https://arxiv.org/abs/2110.02758">paper</a>, <a href="https://github.com/ben-eysenbach/mnm/blob/main/experiments.ipynb">code</a>, <a href="https://youtu.be/AbBTq0LON3Q">talk</a>]'
+    },
+    {
+      img: 'images/ocbc.gif',
+      title: 'Imitating Past Successes can be Very Suboptimal',
+      authors: 'Benjamin Eysenbach, Soumith Udatha, Sergey Levine, Ruslan Salakhutdinov',
+      // A simple and common approach to RL is to simply imitate the strategies
+      // that worked in the past. We show that this approach has a subtle yet
+      // important flaw, and can actually produce strategies that become worse
+      // and worse. We propose a simple fix.
+      text: 'One seemingly-simple way of doing RL is to do imitation learning on successful trajectories, and prior methods like goal-conditioned imitation learning use this to great effect. For draw a connection between these prior methods and reward maximization, showing that these prior methods do not quite correspond to reward maximization, and actually get be worse than doing nothing. Our analysis suggests a simple fix. NeurIPS 2022. [<a href="https://arxiv.org/abs/2206.03378">paper</a>, <a href="https://github.com/ben-eysenbach/normalized-ocbc/blob/main/experiments.ipynb">code</a>, <a href="https://youtu.be/bXnnU68HYQA">talk</a>]'
+    },
     {
       img: 'images/info_geometry.gif',
       title: 'The Information Geometry of Unsupervised Reinforcement Learning',
