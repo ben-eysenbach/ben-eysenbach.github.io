@@ -54,18 +54,18 @@ p {
     margin: 10px 20px;
 }
 
-div#intro p {
+/* div#intro p {
     text-align: justify;
-}
+} */
 
 
 ul {
     list-style-type: square;
 }
 
-li {
+/* li {
     margin: 10px 0px;
-}
+} */
 ul.bullets li {
     margin: 0px;
 }
