@@ -31,4 +31,4 @@ methods. Much of my work uses ideas for probabilistic inference to make progress
 2. have experience with large-scale computer systems; or
 3. come from non-traditional/underrepresented backgrounds.
 
-If you are a current Princeton student, email me. If not, please consider applying to the Princeton CS PhD or MS programs. In rare instances I will work with external students.
+If you are a current Princeton student, email me. If not, please consider applying to the Princeton CS PhD or MS programs. In rare instances I will work with external students ([pitch me!](mailto:eysenbachbe@gmail.com?subject=Research%20Pitch%3A%20%24(title)&body=tldr%3A%20%24(280-character-summary)%0A*%20%24(details-in-bullets)%0A*%20%24(more-details)%0A){:target="_blank"}).
