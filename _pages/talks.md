@@ -7,6 +7,7 @@ nav: true
 nav_order: 2
 ---
 
+- [PhD Thesis Defense](https://youtu.be/ODVaWSKCzTM) (June 28, 2023)
 - [Generally Intelligent Podcast](https://generallyintelligent.com/podcast/2023-03-22-podcast-episode-30-ben-eysenbach/) (March 22, 2023)
 - [The Information Geometry of Unsupervised Reinforcement Learning](https://www.youtube.com/watch?v=8JZYdWbyhCY) (oral at ICLR 2022)
 - [Replacing Rewards with Examples: Example-Based Policy Search via Recursive Classification](https://www.youtube.com/watch?v=7THK9u6UtgE) (oral at NeurIPS 2021)

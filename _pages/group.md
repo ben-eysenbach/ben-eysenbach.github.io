@@ -3,7 +3,7 @@ layout: page
 permalink: /group/
 title: group
 description: Eysenbach Lab
-nav: true
+nav: false
 nav_order: 1
 ---
 
