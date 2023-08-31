@@ -14,6 +14,10 @@ no_header: true
 <p>Monday and Wednesday, 1:30pm -- 2:50pm</p>
 </center>
 
+**FAQ**:
+1. First class: Wed Sept 6.
+2. Is it OK that I haven't taken COS 324, but have taken another ML course? Yes, _as long as you're familiar with the [RL](https://princeton-introml.github.io/files/part4.pdf) and [mathematics for ML](https://princeton-introml.github.io/files/part6.pdf) portions of 324_.
+
 **Instructor**: [Benjamin Eysenbach](./about.md)
 
 **Description**: Reinforcement learning (RL) is about using machine learning to not just mimic past predictions, but instead to determine which decisions will lead to good, long-term outcomes. While RL is typically viewed and taught from the perspectives of control theory and stochastic optimization, this course will study RL through the lens of probabilistic inference. This perspective will provide new ways of thinking about RL methods and suggest how to build new RL methods using techniques from other areas of machine learning (e.g., self-supervised learning). The course will be split between interactive lectures and discussions of recent papers.
