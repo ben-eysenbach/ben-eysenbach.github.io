@@ -8,11 +8,12 @@ nav_order: 2
 no_header: true
 ---
 
-<p>Fall 2023 | <a href="./about.md">Prof. Benjamin Eysenbach</a> | Mon/Wed 1:30pm -- 2:50pm in Room TBD</p>
+<p>Fall 2023 | <a href="./about.md">Prof. Benjamin Eysenbach</a> | Mon/Wed 1:30pm -- 2:50pm in Friend Center 006</p>
 
 **Quick links**: [syllabus](https://docs.google.com/document/d/1xUoNZrKHR_a3MxtylMJRAU1Th8IJ0vzf6l3m7Fijbfk/edit?usp=sharing) / [schedule/grading spreadsheet](https://docs.google.com/spreadsheets/d/1D2dUuV_7qoaSrhImrnZhiuU0o0UaafulO_95wGVdxEU/edit?usp=sharing) / [Ed](https://edstem.org/us/courses/45944/discussion/) / [lecture notes](https://drive.google.com/drive/folders/1oRACWS431wHO0WX_OUS99aSNRNzrHdLH?usp=sharing) / [anonymous feedback](https://forms.gle/VXYiF8XDZsdSpFjY7)
 
 **FAQ**:
+* Where is class? Friend Center 006.
 * The class is full? Please fill out the [waitlist form](https://forms.gle/vtWQ1xtD2fkEL97Q9). No need to email me. Attend class and I'll let you know the plan for enrollment (I'm working to get a TA that will help us increase the cap a bit.).
 * First class: Wed Sept 6.
 * Is it OK that I haven't taken COS 324, but have taken another ML course? Yes, _as long as you're familiar with the [RL](https://princeton-introml.github.io/files/part4.pdf) and [mathematics for ML](https://princeton-introml.github.io/files/part6.pdf) portions of 324_.
