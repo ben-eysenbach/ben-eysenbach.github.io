@@ -8,8 +8,8 @@ nav_order: 1
 ---
 
 Princeton (2023 -- present)
-- Fall 2023: graduate seminar (tbd)
-- Spring 2023: (tbd)
+- Spring 2024: [(COS 4XX) Introduction to Reinforcement Learning](https://ben-eysenbach.github.io/intro-rl/)
+- Fall 2023: [(COS 597R) Inference in Action Probabilistic Topics in Reinforcement Learning](https://ben-eysenbach.github.io/inference-action-f23/)
 
 CMU (2018 -- 2023)
 - [10-703: Deep Reinforcement Learning](https://cmudeeprl.github.io/703website/). Head TA in Fall 2019 and Fall 2020.
