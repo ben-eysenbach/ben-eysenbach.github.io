@@ -9,7 +9,9 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>CS 416</p>
+    <p>Room 416</p>
+    <p>35 Olden St</p>
+    <p>Princeton NJ 08544</p>
   # <p style="text-align: center;">{{ 'be9636@princeton.edu' | email_protect }}</p>
   #   <p>Your City, State 12345</p>
 

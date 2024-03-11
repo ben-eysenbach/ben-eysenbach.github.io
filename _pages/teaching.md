@@ -8,7 +8,7 @@ nav_order: 1
 ---
 
 Princeton (2023 -- present)
-- Spring 2024: [(COS 4XX) Introduction to Reinforcement Learning](https://ben-eysenbach.github.io/intro-rl/)
+- Spring 2024: [(COS 435/ECE 433) Introduction to Reinforcement Learning](https://ben-eysenbach.github.io/intro-rl/)
 - Fall 2023: [(COS 597R) Inference in Action Probabilistic Topics in Reinforcement Learning](https://ben-eysenbach.github.io/inference-action-f23/)
 
 CMU (2018 -- 2023)
