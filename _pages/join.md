@@ -19,11 +19,12 @@ I'd especially encourage prospective students/postdocs from historically underre
 * **Incoming Princeton PhD & MS students**: If you're an existing Princeton MS/PhD student interested in working together, send me an email.
 * **Princeton Undergrads**: If interested in independent research, email me _after_ taking either my graduate RL seminar or the advanced undergraduate RL course (coming Spring 2024).
 * **Postdocs**: I am especially interested in working with a postdoc on (1) large-scale unsupervised RL, (2) connections between unsupervised RL (e.g., contrastive representations) and neuroscience (e.g., grid cells), and (3) applications of RL to synthesis problems in science/engineering. Funding for postdocs is currently limited, so I'd encourage prospective postdocs to apply for the [Princeton Presidential Fellowship](https://dof.princeton.edu/diversity-and-inclusion/talent-pathway-programs/presidential-postdoctoral-research-fellows), the [CSML Postdoc Fellowship](https://csml.princeton.edu/news/postdoctoral-research-associate), the [PLI Postdoc Fellowship](https://pli.princeton.edu/people/postdoctoral-researchers), or external postdoc fellowships. Apply by emailing me, including a resume, a few paragraphs about what you'd like to work on, and what fellowship[s] you plan to apply to (I can usually write a letter of support for these).
-* **External/visiting students**: Want to spend 4 -- 6 months doing research here at Princeton? Apply by emailing me with a project pitch.
-* **Grant manager**: Our department is actively hiring grant managers! [Apply](https://main-princeton.icims.com/jobs/17348/grants-manager/job), even if you don't meet all the qualifications.
+* **External/visiting students**: Want to spend 4 -- 6 months doing research here at Princeton? Apply by emailing me with a paragraph about what you'd like to work on.
+* **High school students**: I don't work with high school students. Check out [Princeton AI4All](https://ai4all.princeton.edu/).
 
 **Tips**:
-I am especially interested in recruiting students/postdocs in the following areas. If applicable, mention it in your application.
-1. have experience in synthesis problems in chemistry (e.g., retrosynthesis), biology (e.g., lineage tracing, trajectory inference), or other scientific disciplines;
-2. have experience with large-scale computer systems; or
-3. come from non-traditional/underrepresented backgrounds, including (but not limited to) students from low-income backgrounds and those who have worked for several years after their undergraduate.
+* I am especially interested in recruiting students/postdocs in the following areas. If applicable, mention it in your application.
+    * Experience in synthesis problems in chemistry (e.g., retrosynthesis), biology (e.g., lineage tracing, trajectory inference), or other scientific disciplines;
+    * Experience with large-scale computer systems; or
+    * Come from non-traditional/underrepresented backgrounds, including (but not limited to) students from low-income backgrounds and those who have worked for several years after their undergraduate.
+* Make sure to mention _why_ my lab would be a good fit. One good way to do this is to identify a bug in the code or proofs of a previous paper.
