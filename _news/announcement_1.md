@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-[New paper](https://arxiv.org/abs/2403.04082) on planning by interpolation! With [Vivek Meyers](https://people.eecs.berkeley.edu/~vmyers/).
+[New paper](https://arxiv.org/abs/2403.04082) on planning by interpolation! With [Vivek Myers](https://people.eecs.berkeley.edu/~vmyers/).
