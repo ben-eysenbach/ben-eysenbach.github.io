@@ -28,4 +28,4 @@ methods. Much of my work uses ideas for probabilistic inference to make progress
 
 **Bio:** I did my PhD in machine learning at CMU, advised by [Ruslan Salakhutdinov](http://www.cs.cmu.edu/~rsalakhu/) and [Sergey Levine](https://people.eecs.berkeley.edu/~svlevine/) and supported by the NSF GFRP and the Hertz Fellowship. I spent a number of years at [Google Brain/Research](https://research.google/) before and during my PhD.
 
-**Join us!** I am hiring new students at all levels, a postdoc, and a grant manager. [Read this](./hiring) before emailing me.
+**Join us!** I am hiring new students at all levels and a postdoc. [Read this](./hiring) before emailing me.
