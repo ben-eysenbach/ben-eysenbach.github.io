@@ -115,9 +115,10 @@ nav_order: 1
 "Yuting Wei",
 "Zita Marinho"];
         
-        const shuffledItems = shuffleArray(items);
+        const items2 = items.map(str => str.replace(/ /g, '\u00a0'));
+        const shuffledItems = shuffleArray(items2);
         const list = document.getElementById('myNames');
-        list.textContent = shuffledItems.join(', ');
+        list.textContent = shuffledItems.join(', ') + '.';
       }
 
       // Shuffle the list when the page loads
@@ -130,12 +131,15 @@ nav_order: 1
 
 In attempts to change perceptions about who does RL, we've put together a poster of notable women+ in RL. This is inspired by the [notable women in computing](https://notabletechnicalwomen.org/) project. 
 
-One of the most heartening parts of the project was that we ended up having many more than 52 notable women and gender minorities, so we randomly subsampled to create the poster. Below is a list of amazing folks who did not end up on the poster because of random chance:\
-<span id="myNames" style="font-size: 10px"></span>
+There are many more folks than can fit on one poster, so we randomly subsampled to create the poster. Below is a list of amazing folks who did not end up on the poster because of random chance:
+
+<span id="myNames" style="font-size: 16px"></span>
 <p align="right">
 (Email me to add/remove yourself from this list. Order is randomized.)
 </p>
 
+
+The order of researchers in the poster is also randomized.
 
 <object data="../assets/women-in-rl.pdf" width="800" height="1300" type="application/pdf"></object>
 
