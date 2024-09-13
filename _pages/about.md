@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Assistant Professor of <a href="https://www.cs.princeton.edu/">Computer Science</a> at <a href="https://www.princeton.edu/">Princeton University</a>.
+subtitle: Assistant Professor of <a href="https://www.cs.princeton.edu/">Computer Science</a> at <a href="https://www.princeton.edu/">Princeton University</a>. <br>Affiliated/Associated Faculty with the <a href="https://cogsci.princeton.edu/">Princeton Program in Cognitive Science</a> and the <a href="https://pli.princeton.edu/">Princeton Language Initiative</a>.
 
 profile:
   align: right
@@ -22,10 +22,9 @@ selected_talks: true
 social: false  # includes social icons at the bottom of the page
 ---
 
-My research aims to develop principled <b>reinforcement learning (RL) algorithms</b> that obtain
-state-of-the-art performance with a higher degree of simplicity, scalability, and robustness than current
-methods. Much of my work uses ideas for probabilistic inference to make progress on a important problems in RL (e.g., long-horizon and high-dimensional reasoning, robustness, exploration).
 
-**Bio:** I did my PhD in machine learning at CMU, advised by [Ruslan Salakhutdinov](http://www.cs.cmu.edu/~rsalakhu/) and [Sergey Levine](https://people.eecs.berkeley.edu/~svlevine/) and supported by the NSF GFRP and the Hertz Fellowship. I spent a number of years at [Google Brain/Research](https://research.google/) before and during my PhD.
+I design reinforcement learning (RL) algorithms: AI methods that learn how to make intelligent decisions from trial and error. I am especially interested in self-supervised methods, which enable agents to learn intelligent behaviors without labels or human supervision. Our group has developed some of the foremost algorithms and analysis for such self-supervised RL methods. [Here](https://sites.google.com/view/diayn/) [are](https://graliuce.github.io/sgcrl/) a few examples. I run the <a href="https://princeton-rl.github.io/">Princeton Reinforcement Learning Lab</a>.
 
-**Join us!** I am hiring new students at all levels and a postdoc. [Read this](./hiring) before emailing me.
+**Bio:** Before joining Princeton, I did by PhD in machine learning at CMU under [Ruslan Salakhutdinov](http://www.cs.cmu.edu/~rsalakhu/) and [Sergey Levine](https://people.eecs.berkeley.edu/~svlevine/) and supported by the NSF GFRP and the Hertz Fellowship. I spent a number of years at [Google Brain/Research](https://research.google/) before and during my PhD. My undergraduate studies were in math at MIT.
+
+**Join us!** (Fall 2024) I am recruiting 1 -- 2 PhD students and 1 -- 2 MS students to start in Fall 2025. I am also recruiting 1 postdoc and 1 predoc researcher to start in Spring 2025. Please read [this page](./hiring) for more information and details on how to apply.
