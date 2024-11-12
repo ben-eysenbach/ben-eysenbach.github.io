@@ -23,8 +23,5 @@ I'd especially encourage prospective students/postdocs from historically underre
 * **High school students**: I don't work with high school students. Check out [Princeton AI4All](https://ai4all.princeton.edu/).
 
 **Tips**:
-* I am especially interested in recruiting students/postdocs in the following areas. If applicable, mention it in your application.
-    * Experience in synthesis problems in chemistry (e.g., retrosynthesis), biology (e.g., lineage tracing, trajectory inference), or other scientific disciplines;
-    * Experience with large-scale computer systems; or
-    * Come from non-traditional/underrepresented backgrounds, including (but not limited to) students from low-income backgrounds and those who have worked for several years after their undergraduate.
-* Make sure to mention _why_ my lab would be a good fit. One good way to do this is to identify a bug in the code or proofs of a previous paper.
+* I am especially interested in recruiting students/postdocs with experience in (1) neuroscience + RL, (2) applications of control/planning/RL to science/engineering, or (3) large-scale GPU training.
+* In your application, demonstrate that you understand the sorts of research that we're doing (e.g., check our a recent talk or paper).
