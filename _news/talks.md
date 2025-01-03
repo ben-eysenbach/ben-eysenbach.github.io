@@ -10,4 +10,4 @@ Upcoming talks:
 * Facebook -- Reasoning and Planning (Oct 8, 2024).
 * Colloquium at Queens College (Oct 21, 2024).
 * European Workshop on RL: Keynote (Oct 28, 2024).
-
+* NAVER Labs Europe (Nov 4, 2024).

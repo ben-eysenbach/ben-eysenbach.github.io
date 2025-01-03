@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Organizing an [NSF workshop on RL](https://sites.harvard.edu/nsf-rl-workshop/) for January 2025!
+I'm co-organizing the [NSF workshop on RL](https://sites.harvard.edu/nsf-rl-workshop/), which will be held Jan 23 -- 24 at Harvard University, together with [Na Li](https://nali.seas.harvard.edu/), [Guannan Qu](https://www.guannanqu.com/) and [Bo Dai](https://sites.google.com/site/daibohr/)! [Register here](https://sites.harvard.edu/nsf-rl-workshop/registration/).
