@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-We're launching a undergraduate research program (REU) together with state and community colleges in NJ. This is a paid program, and no research experience is required. [Apply](https://www.cs.princeton.edu/diversity-and-outreach/princeton-research-experience-undergrads-ai-and-machine-learning) by Feb. 1.
+:palm_tree: We're launching a undergraduate research program (REU) together with state and community colleges in NJ. This is a paid program, and no research experience is required. [Apply](https://www.cs.princeton.edu/diversity-and-outreach/princeton-research-experience-undergrads-ai-and-machine-learning) by Feb. 1.

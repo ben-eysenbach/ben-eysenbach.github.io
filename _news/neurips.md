@@ -5,7 +5,7 @@ inline: true
 related_posts: false
 ---
 
-Princeton RL @ NeurIPS 2024! Some say ``hi'' and check out the work below!
+:airplane: Princeton RL @ NeurIPS 2024! Some say ``hi'' and check out the work below!
 * [Inference via Interpolation: Contrastive Representations Provably Enable Planning and Inference](https://openreview.net/forum?id=PoCs4jq7cV). With [Vivek Myers](https://people.eecs.berkeley.edu/~vmyers/). Poster at 7:30pm on Wed Dec 11.
 * [Learning to Assist Humans without Inferring Rewards](https://openreview.net/forum?id=WCnJmb7cv1). With [Evan Ellis](https://scholar.google.co.za/citations?user=zZfgIZ4AAAAJ&hl=en) and [Vivek Myers](https://people.eecs.berkeley.edu/~vmyers/). Poster at 2:00pm on Thur Dec 12.
 * [A Single Goal is All You Need: Skills and Exploration Emerge from Contrastive RL without Rewards, Demonstrations, or Subgoals](https://graliuce.github.io/sgcrl/). Led by [Grace Liu](https://graliuce.github.io/) and [Michael Tang](https://michaeltang.xyz/). Intrinsically-Motivated and Open-Ended Learning Workshop. Oral prentation on 2:45pm -- 3:00pm on Sunday Dec 15.
