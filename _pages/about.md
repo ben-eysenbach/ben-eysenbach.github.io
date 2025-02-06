@@ -27,4 +27,4 @@ I design reinforcement learning (RL) algorithms: AI methods that learn how to ma
 
 **Bio:** Before joining Princeton, I did by PhD in machine learning at CMU under [Ruslan Salakhutdinov](http://www.cs.cmu.edu/~rsalakhu/) and [Sergey Levine](https://people.eecs.berkeley.edu/~svlevine/) and supported by the NSF GFRP and the Hertz Fellowship. I spent a number of years at [Google Brain/Research](https://research.google/) before and during my PhD. My undergraduate studies were in math at MIT.
 
-**Join us!** (Fall 2024) I am recruiting 1 -- 2 PhD students and 1 -- 2 MS students to start in Fall 2025. I am also recruiting 1 postdoc and 1 predoc researcher to start in Spring 2025. Please read [this page](./hiring) for more information and details on how to apply.
+**Join us!** Please read [this page](./hiring) before emailing me about joining the lab.
