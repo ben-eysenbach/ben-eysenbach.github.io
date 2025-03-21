@@ -2,11 +2,11 @@
 layout: about
 title: about
 permalink: /
-subtitle: Assistant Professor of <a href="https://www.cs.princeton.edu/">Computer Science</a> at <a href="https://www.princeton.edu/">Princeton University</a>. <br>Affiliated/Associated Faculty with the <a href="https://cogsci.princeton.edu/">Princeton Program in Cognitive Science</a> and the <a href="https://pli.princeton.edu/">Princeton Language Initiative</a>.
+subtitle: Assistant Professor of <a href="https://www.cs.princeton.edu/">Computer Science</a> at <a href="https://www.princeton.edu/">Princeton University</a>. <br>Affiliated/Associated Faculty with the <a href="https://cogsci.princeton.edu/">Princeton Program in Cognitive Science</a> and the <a href="https://pli.princeton.edu/">Princeton Language Initiative</a>, and <a href="https://nam.ai.princeton.edu/">Natural and Artificial Minds</a>.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: headshot.jpg
   image_circular: false # crops the image to make it circular
   address: >
     <p>Room 416</p>

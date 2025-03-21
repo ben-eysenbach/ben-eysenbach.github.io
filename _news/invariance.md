@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-:cyclone: Check out our new preprint, [Horizon Generalization in Reinforcement Learning](https://arxiv.org/abs/2501.02709), led by Cathy Ji and [Vivek Myers](https://people.eecs.berkeley.edu/~vmyers/)!
+:cyclone: Check out our new preprint, [Horizon Generalization in Reinforcement Learning](https://horizon-generalization.github.io/), led by Cathy Ji and [Vivek Myers](https://people.eecs.berkeley.edu/~vmyers/)!
