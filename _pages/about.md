@@ -6,7 +6,7 @@ subtitle: Assistant Professor of <a href="https://www.cs.princeton.edu/">Compute
 
 profile:
   align: right
-  image: headshot.jpg
+  image: headshot_small.jpg
   image_circular: false # crops the image to make it circular
   address: >
     <p>Room 416</p>
