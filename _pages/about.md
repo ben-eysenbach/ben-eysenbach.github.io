@@ -23,8 +23,11 @@ social: false  # includes social icons at the bottom of the page
 ---
 
 
-I design reinforcement learning (RL) algorithms: AI methods that learn how to make intelligent decisions from trial and error. I am especially interested in self-supervised methods, which enable agents to learn intelligent behaviors without labels or human supervision. Our group has developed some of the foremost algorithms and analysis for such self-supervised RL methods. [Here](https://sites.google.com/view/diayn/) [are](https://graliuce.github.io/sgcrl/) a few examples. I run the <a href="https://princeton-rl.github.io/">Princeton Reinforcement Learning Lab</a>.
+I design reinforcement learning (RL) algorithms: AI methods that learn how to make intelligent decisions from trial and error. I am especially interested in self-supervised methods, which enable agents to learn intelligent behaviors without labels or human supervision. Our group has developed some of the foremost algorithms and analysis for such self-supervised RL methods. [Here](https://sites.google.com/view/diayn/) [are](https://graliuce.github.io/sgcrl/) a few example papers;
+[here](https://ben-eysenbach.github.io/self-supervised-rl/) and [here](https://generative-rl-tutorial.github.io/) are some tutorials to learn more about our research.
+My work has been recognized by an NSF CAREER Award, a Hertz Fellowship, an NSF GRFP Fellowship, and the Alfred Rheinstein Faculty Award. 
+I run the <a href="https://princeton-rl.github.io/">Princeton Reinforcement Learning Lab</a>.
 
-**Bio:** Before joining Princeton, I did by PhD in machine learning at CMU under [Ruslan Salakhutdinov](http://www.cs.cmu.edu/~rsalakhu/) and [Sergey Levine](https://people.eecs.berkeley.edu/~svlevine/) and supported by the NSF GFRP and the Hertz Fellowship. I spent a number of years at [Google Brain/Research](https://research.google/) before and during my PhD. My undergraduate studies were in math at MIT.
+Before joining Princeton, I did by PhD in machine learning at CMU under [Ruslan Salakhutdinov](http://www.cs.cmu.edu/~rsalakhu/) and [Sergey Levine](https://people.eecs.berkeley.edu/~svlevine/) and supported by the NSF GFRP and the Hertz Fellowship. I spent a number of years at [Google Brain/Research](https://research.google/) before and during my PhD. My undergraduate studies were in math at MIT.
 
 **Join us!** Please read [this page](./hiring) before emailing me about joining the lab.
