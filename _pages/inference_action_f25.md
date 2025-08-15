@@ -8,7 +8,7 @@ nav_order: 2
 no_header: true
 ---
 
-<p>Fall 2025 | <a href="../index.html">Prof. Benjamin Eysenbach</a> </p>
+<p>Fall 2025 | Equad E225 | <a href="../index.html">Prof. Benjamin Eysenbach</a> </p>
 
 <!--
 | Mon/Wed 1:30pm -- 2:50pm in Friend Center 006</p>
