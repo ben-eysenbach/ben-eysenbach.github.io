@@ -8,12 +8,12 @@ nav_order: 2
 no_header: true
 ---
 
-<p>Fall 2025 | Equad E225 | <a href="../index.html">Prof. Benjamin Eysenbach</a> </p>
+<p>Fall 2025 | Mon/Wed 2:55pm -- 4:10pm | Equad E225 | <a href="../index.html">Prof. Benjamin Eysenbach</a> </p>
+
+
+**Quick links**: [syllabus](https://docs.google.com/document/d/1qeE1Sz-pQBehIJ_gTKSNTw1tOmXlS3a3-4rmpBg2ZMw/edit?usp=sharing) / [calendar](https://docs.google.com/spreadsheets/d/1UxMqw2ZNVVyJjYn8pJ4Gj3GnsJSBwVW8_ykkiUdxm88/edit?usp=sharing) / [Ed](https://edstem.org/us/courses/84511/discussion)
 
 <!--
-| Mon/Wed 1:30pm -- 2:50pm in Friend Center 006</p>
-
-**Quick links**: [syllabus](https://docs.google.com/document/d/1xUoNZrKHR_a3MxtylMJRAU1Th8IJ0vzf6l3m7Fijbfk/edit?usp=sharing) / [schedule/grading spreadsheet](https://docs.google.com/spreadsheets/d/1D2dUuV_7qoaSrhImrnZhiuU0o0UaafulO_95wGVdxEU/edit?usp=sharing) / [Ed](https://edstem.org/us/courses/45944/discussion/) / [lecture notes](https://drive.google.com/drive/folders/1oRACWS431wHO0WX_OUS99aSNRNzrHdLH?usp=sharing) / [anonymous feedback](https://forms.gle/VXYiF8XDZsdSpFjY7)
 
 **FAQ**:
 * Where is class? Friend Center 006.
