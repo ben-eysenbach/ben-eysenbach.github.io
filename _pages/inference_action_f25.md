@@ -8,7 +8,7 @@ nav_order: 2
 no_header: true
 ---
 
-<p>Fall 2025 | Mon/Wed 2:55pm -- 4:10pm | Equad E225 | <a href="../index.html">Prof. Benjamin Eysenbach</a> </p>
+<p>Fall 2025 | Mon/Wed 2:55pm -- 4:10pm | Friend 109 | <a href="../index.html">Prof. Benjamin Eysenbach</a> </p>
 
 **Office hours:** Tuesday 4pm – 5pm in CS 416
 
