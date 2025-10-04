@@ -11,8 +11,7 @@ no_header: true
 <p>Fall 2025 | Mon/Wed 2:55pm -- 4:10pm | Friend 109 | <a href="../index.html">Prof. Benjamin Eysenbach</a> </p>
 
 **Office hours:** Tuesday 4pm – 5pm in CS 416
-* Change for week of Sept 15: Mon 9/15, 5pm -- 6pm
-* Change for week of Sept 22: Mon 9/22, 5pm -- 6pm
+* Change for week of Oct 13: No office hours (or class) this week because of Fall Break.
 
 
 **Quick links**: [syllabus](https://docs.google.com/document/d/1qeE1Sz-pQBehIJ_gTKSNTw1tOmXlS3a3-4rmpBg2ZMw/edit?usp=sharing) / [calendar](https://docs.google.com/spreadsheets/d/1UxMqw2ZNVVyJjYn8pJ4Gj3GnsJSBwVW8_ykkiUdxm88/edit?usp=sharing) / [Ed](https://edstem.org/us/courses/84511/discussion)
