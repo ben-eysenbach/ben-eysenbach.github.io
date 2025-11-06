@@ -30,4 +30,4 @@ I run the <a href="https://princeton-rl.github.io/">Princeton Reinforcement Lear
 
 Before joining Princeton, I did by PhD in machine learning at CMU under [Ruslan Salakhutdinov](http://www.cs.cmu.edu/~rsalakhu/) and [Sergey Levine](https://people.eecs.berkeley.edu/~svlevine/) and supported by the NSF GFRP and the Hertz Fellowship. I spent a number of years at [Google Brain/Research](https://research.google/) before and during my PhD. My undergraduate studies were in math at MIT.
 
-**Join us!** I am not hiring PhD students in Fall 2025. I am hiring a postdoc. Please read [this page](./hiring) before emailing me about joining the lab.
+**Join us!** I am not hiring PhD students in Fall 2025. **I am hiring a postdoc to start Spring 2026**. Please read [this page](./hiring) before emailing me about joining the lab.
