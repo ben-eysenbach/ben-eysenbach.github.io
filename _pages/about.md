@@ -28,7 +28,9 @@ We answer these and similar questions by designing AI algorithms. While we might
 Our group has developed some of the foremost algorithms and analysis for such self-supervised control methods. [Here](https://sites.google.com/view/diayn/) [are](https://graliuce.github.io/sgcrl/) a few example papers;
 [here](https://ben-eysenbach.github.io/self-supervised-rl/) and [here](https://generative-rl-tutorial.github.io/) are some tutorials to learn more about our research.
 
-My work has been recognized by a NeurIPS Best Paper Award, an NSF CAREER Award, a Hertz Fellowship, an NSF GRFP Fellowship, the Alfred Rheinstein Faculty Award, as well as recognition for Outstanding Teaching.
+My work has been recognized by a NeurIPS Best Paper Award, an NSF CAREER Award, a Hertz Fellowship, an NSF GRFP Fellowship, the Alfred Rheinstein Faculty Award, as well as several teaching awards.
 Before joining Princeton, I did by PhD in machine learning at CMU under [Ruslan Salakhutdinov](http://www.cs.cmu.edu/~rsalakhu/) and [Sergey Levine](https://people.eecs.berkeley.edu/~svlevine/). I spent a number of years at [Google Brain/Research](https://research.google/) before and during my PhD. My undergraduate studies were in math at MIT.
+
+My lab's research is supported by the National Science Foundation, the Sloan Foundation, NVIDIA, Google, Toyota Research Institute, and Princeton University.
 
 **Come do science with us!** Check out [this page](./hiring) for details on how to get involved in the research, whether as an undergrad, PhD student, postdoc, visiting student, or external collaborator.
