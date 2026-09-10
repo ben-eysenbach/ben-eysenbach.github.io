@@ -33,4 +33,4 @@ Before joining Princeton, I did by PhD in machine learning at CMU under [Ruslan 
 
 My lab's research is supported by the National Science Foundation, the Sloan Foundation, NVIDIA, Google, Toyota Research Institute, and Princeton University.
 
-**Come do science with us!** Check out [this page](./hiring) for details on how to get involved in the research, whether as an undergrad, PhD student, postdoc, visiting student, or external collaborator.
+**Come do science with us!** (Fall 2026) I plan to admit 2 -- 3 PhD students, to start in Fall 2027. Check out [this page](./hiring) for details on how to get involved in the research, whether as an undergrad, PhD student, postdoc, visiting student, or external collaborator.
