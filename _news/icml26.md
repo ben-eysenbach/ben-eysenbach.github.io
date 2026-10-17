@@ -6,7 +6,7 @@ related_posts: false
 ---
 
 :kr: Princeton RL @ ICML 2026! I'm excited to share progress we've made in RL algorithms:
-* [On the Role of Computation in Reinforcement Learning](https://openreview.net/forum?id=HKzMnBX5B2), led by [Raj Ghugare](https://github.com/RajGhugare19), with [Michał Bortkiewicz](https://michalbortkiewicz.github.io/) and [Alicja Ziarko](https://x.com/ZiarkoAlicja). (spotlight)
+* [On the Role of Computation in Reinforcement Learning](https://openreview.net/forum?id=HKzMnBX5B2), led by [Raj Ghugare](https://github.com/RajGhugare19), with [Michał Bortkiewicz](https://michalbortkiewicz.github.io/) and [Alicja Ziarko](https://x.com/ZiarkoAlicja). (oral)
 * [Learning to Perceive the World Through Control: Empowerment-Based Representation Learning](https://openreview.net/forum?id=ZAZb1ZGnFH), led by [Mahsa Bastankhah](https://sites.google.com/view/mahsabastankhah/home) and [Sophie Broderick](http://sophiebroderick.com/).
 * [Training LLM Agents to Empower Humans](https://openreview.net/forum?id=oOiQF3Ocl3), led by Evan Ellis, with [Vivek Myers](https://people.eecs.berkeley.edu/~vmyers/), [Jens Tuyls](https://jens321.github.io/), [Sergey Levine](https://people.eecs.berkeley.edu/~svlevine/), and Anca Dragan.
 * [Consistent Zero-Shot Imitation with Contrastive Goal Inference](https://openreview.net/forum?id=cBfpI4aLCZ), led by [Kathryn Wantlin](http://kathrynwantlin.com/), with [Chongyi Zheng](https://chongyi-zheng.github.io/).

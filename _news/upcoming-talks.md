@@ -5,9 +5,9 @@ inline: true
 related_posts: false
 ---
 
-:airplane: Upcoming talks that will highlight recent work and future directions:
-* [3rd Aachen Symposium on Representation Learning to Act and Plan (RLeap)](https://symposium.ml.rwth-aachen.de), Vaals, Germany (Sept 14-16).
-* Columbia University, Machine Learning & AI Seminar Series (Oct 2).
-* Natural and Artificial Minds (NAM) Friday Talk Series, Princeton (Jan 29).
-* NeurIPS 2026 Workshop, "From Pretrained Representations to Acting Agents: Test-Time Decision Making, Search, and Control" (date/location TBD).
-* NeurIPS 2026 Workshop, "Open-Ended and Autonomous Learning Systems: Possibility, Bottlenecks, and Safety" (date/location TBD).
+Upcoming talks highlighting recent work from the lab:
+* Aachen Symposium on Representation Learning to Act and Plan (RLeap) (Sept 14-16).
+* Columbia University, Machine Learning & AI Seminar (Oct 2).
+* Amii / University of Alberta AI Seminar (Oct 9).
+* BOLD/AIMS Seminar at Oxford (Oct 16).
+* Natural and Artificial Minds (NAM) Friday Talk Series, Princeton (Jan 29 2027).
