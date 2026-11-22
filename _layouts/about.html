@@ -13,6 +13,10 @@ layout: default
   </header>
 
   <article>
+    {% if page.eva_statement -%}
+    {% include eva_statement.html %}
+    {%- endif %}
+
     {% if page.profile -%}
     <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
       {%- if page.profile.image %}
