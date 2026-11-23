@@ -20,7 +20,6 @@ latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 selected_talks: true
 social: false  # includes social icons at the bottom of the page
-eva_statement: true  # shows the statement on Eva at the top of the page
 ---
 
 I run the <a href="https://princeton-rl.github.io/">Princeton Reinforcement Learning Lab</a>, where we study the science of intelligent decision making. How can AI systems learn to explore the world and uncover previously-unknown skills or knowledge? Can agents learn about the structure of the world, about the texture of time?  How much of this learning can be done in an unsupervised fashion?
